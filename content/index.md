@@ -1,9 +1,10 @@
 ---
 title: Welcome to 1Hive
 ---
+
 This is a community maintained wiki for understanding, exploring, and contributing to the 1Hive community.
 
-**1Hive** is a community of creators and dreamers working toward a future that is more **free**, **fair**, **open**, and **humane**.  
+**1Hive** is a community of creators and dreamers working toward a future that is more **free**, **fair**, **open**, and **humane**.
 
 We believe that open and decentralized systems are essential for aligning our social, technological, and economic institutions with the public good.
 
@@ -17,5 +18,3 @@ If you’re new to 1Hive or want to get more involved, here are some good places
 - [[How you can contribute]] — Explore ways to support and shape 1Hive.
 - [[Curating community contributions]] — Help reward other community members for their efforts.
 - [[Navigating core community infrastructure]] — A guide to key tools, spaces, and processes.
-
-

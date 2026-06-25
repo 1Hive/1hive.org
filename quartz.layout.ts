@@ -8,9 +8,9 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      "Discord": "https://discord.com/invite/D6pZzxU",
-      "Forum": "https://forum.1hive.org",
-      "DAO": "https://gardens.1hive.org",
+      Discord: "https://discord.com/invite/D6pZzxU",
+      Forum: "https://forum.1hive.org",
+      DAO: "https://gardens.1hive.org",
       GitHub: "https://github.com/1Hive",
     },
   }),
@@ -37,6 +37,7 @@ export const defaultContentPageLayout: PageLayout = {
           grow: true,
         },
         { Component: Component.Darkmode() },
+        { Component: Component.ReaderMode() },
       ],
     }),
     Component.Explorer(),

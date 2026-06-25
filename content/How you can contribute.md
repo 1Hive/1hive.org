@@ -1,4 +1,3 @@
-
 **Everyone has something valuable to offer.**  
 We all come from different backgrounds, with unique skills, experiences, and perspectives — and that’s exactly what makes 1Hive thrive.
 

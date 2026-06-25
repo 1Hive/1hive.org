@@ -22,6 +22,7 @@ We welcome contributions to the 1Hive website! Here's how you can help:
 ### Local Development
 
 This website is built using Quartz v4, which features:
+
 - Easy content management with Markdown
 - Fast and responsive design
 - Built-in search functionality
@@ -33,6 +34,7 @@ For more information about Quartz and its features, visit the [official document
 ## Community
 
 Join our community to learn more and get involved:
+
 - [Discord](https://discord.gg/1hive)
 - [Forum](https://forum.1hive.org/)
 

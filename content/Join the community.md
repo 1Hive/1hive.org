@@ -50,7 +50,7 @@ Honey is governed by the community — and we use several tools to coordinate ho
 
 - **Celeste** – A decentralized dispute resolution protocol that helps enforce proposal rules and mediate challenges.
 
-- **Gardens v2** – A newer, modular platform for experimenting with conviction-based governance which we are using to experiment with different ways of allocating Honey. 
+- **Gardens v2** – A newer, modular platform for experimenting with conviction-based governance which we are using to experiment with different ways of allocating Honey.
 
 We'll be adding guides soon to help you understand and participate in each of these systems.
 
