@@ -1,3 +1,273 @@
 @use "./base.scss";
+@use "./variables.scss" as *;
 
-// put your custom CSS here!
+:root {
+  --hive-paper: oklch(98% 0.012 91);
+  --hive-paper-raised: oklch(96% 0.018 91);
+  --hive-ink: oklch(22% 0.026 78);
+  --hive-muted: oklch(48% 0.035 82);
+  --hive-honey: oklch(84% 0.17 88);
+  --hive-honey-strong: oklch(71% 0.165 86);
+  --hive-wing: oklch(67% 0.12 190);
+  --hive-leaf: oklch(58% 0.12 140);
+  --hive-rule: oklch(88% 0.038 90);
+  --hive-shadow: oklch(32% 0.03 78 / 0.08);
+}
+
+:root[saved-theme="dark"] {
+  --hive-paper: oklch(19% 0.025 82);
+  --hive-paper-raised: oklch(23% 0.028 82);
+  --hive-ink: oklch(96% 0.014 91);
+  --hive-muted: oklch(76% 0.032 86);
+  --hive-rule: oklch(31% 0.036 84);
+  --hive-shadow: oklch(8% 0.02 78 / 0.24);
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, oklch(88% 0.12 88 / 0.28), transparent 28rem),
+    linear-gradient(180deg, var(--hive-paper), var(--light));
+  letter-spacing: -0.005em;
+}
+
+body::before {
+  background-image:
+    linear-gradient(
+      30deg,
+      oklch(80% 0.05 88 / 0.13) 12%,
+      transparent 12.5%,
+      transparent 87%,
+      oklch(80% 0.05 88 / 0.13) 87.5%,
+      oklch(80% 0.05 88 / 0.13)
+    ),
+    linear-gradient(
+      150deg,
+      oklch(80% 0.05 88 / 0.13) 12%,
+      transparent 12.5%,
+      transparent 87%,
+      oklch(80% 0.05 88 / 0.13) 87.5%,
+      oklch(80% 0.05 88 / 0.13)
+    );
+  background-position:
+    0 0,
+    0 0;
+  background-size: 4.8rem 8.3rem;
+  content: "";
+  inset: 0;
+  mask-image: linear-gradient(90deg, black, transparent 38rem);
+  opacity: 0.35;
+  pointer-events: none;
+  position: fixed;
+  z-index: -1;
+}
+
+.page {
+  max-width: 1480px;
+}
+
+.page > #quartz-body {
+  column-gap: clamp(1.25rem, 2.8vw, 3rem) !important;
+}
+
+.page > #quartz-body .center {
+  padding-inline: clamp(0rem, 1.4vw, 1rem);
+}
+
+.page > #quartz-body .page-header {
+  margin-top: 4.5rem;
+}
+
+.page > #quartz-body .sidebar {
+  color: var(--hive-muted);
+  padding-top: 4.5rem;
+}
+
+.page > #quartz-body .sidebar.left {
+  border-right: 1px solid var(--hive-rule);
+}
+
+.page > #quartz-body .sidebar.right {
+  border-left: 1px solid var(--hive-rule);
+}
+
+.page-title {
+  width: fit-content;
+}
+
+.page-title a:hover {
+  color: var(--dark);
+}
+
+.search > .search-button {
+  background: var(--hive-paper-raised);
+  border-color: var(--hive-rule);
+  border-radius: 999px;
+  box-shadow: 0 0.6rem 1.6rem var(--hive-shadow);
+}
+
+.search > .search-button > p {
+  color: var(--hive-muted);
+  font-weight: 600;
+}
+
+article {
+  font-size: 1.04rem;
+  line-height: 1.68;
+}
+
+article h1,
+article h2,
+article h3 {
+  color: var(--dark);
+  letter-spacing: -0.045em;
+  line-height: 1.05;
+}
+
+article h1 {
+  font-size: clamp(2.15rem, 5vw, 3.9rem) !important;
+  max-width: 13ch;
+}
+
+article h2 {
+  font-size: clamp(1.55rem, 3vw, 2.45rem);
+  margin-top: 2.6rem;
+  max-width: 16ch;
+}
+
+article h3 {
+  margin-top: 2rem;
+}
+
+article p {
+  margin: 0.85rem 0 1.05rem;
+  max-width: 66ch;
+}
+
+article ul,
+article ol {
+  margin: 1rem 0 1.4rem;
+  padding-left: 1.35rem;
+}
+
+article li + li {
+  margin-top: 0.35rem;
+}
+
+article a.internal,
+article a.manual-link,
+article a:not(.tag-link) {
+  border-radius: 0.45rem;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+article a.internal {
+  background: color-mix(in oklch, var(--hive-honey) 24%, transparent);
+  color: color-mix(in oklch, var(--dark) 78%, var(--hive-honey-strong));
+  padding: 0.05em 0.22em;
+}
+
+article a.internal:hover,
+article a.manual-link:hover {
+  color: var(--dark);
+  background: color-mix(in oklch, var(--hive-honey) 42%, transparent);
+}
+
+body[data-slug="index"] .graph {
+  display: none;
+}
+
+.graph > .graph-outer,
+.toc,
+.backlinks,
+.explorer-content {
+  border-color: var(--hive-rule);
+}
+
+footer {
+  border-top: 1px solid var(--hive-rule);
+  margin-top: 2.2rem;
+  padding-top: 1.4rem;
+}
+
+footer ul {
+  flex-wrap: wrap;
+}
+
+footer a {
+  color: var(--hive-muted);
+}
+
+@media all and ($tablet) {
+  body[data-slug="index"] .page > #quartz-body {
+    grid-template-areas:
+      "grid-sidebar-left"
+      "grid-center"
+      "grid-footer";
+    grid-template-columns: 1fr;
+  }
+
+  body[data-slug="index"] .center {
+    padding-top: clamp(2rem, 7vw, 4rem);
+  }
+
+  .landing-pathways,
+  .landing-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .landing-hero {
+    min-height: auto;
+  }
+
+  .landing-hero__bee {
+    justify-self: start;
+    max-width: 9rem;
+    order: -1;
+  }
+
+  .landing-link-list a {
+    grid-template-columns: 2.4rem 1fr;
+  }
+
+  .landing-link-list em {
+    grid-column: 2;
+  }
+}
+
+@media all and ($mobile) {
+  body::before {
+    mask-image: linear-gradient(180deg, black, transparent 32rem);
+  }
+
+  .page > #quartz-body .sidebar {
+    padding-top: 2rem;
+  }
+
+  .page > #quartz-body .page-header {
+    margin-top: 0;
+  }
+
+  .page > #quartz-body .sidebar.left,
+  .page > #quartz-body .sidebar.right {
+    border: 0;
+  }
+
+  .page-title img {
+    height: 1.85rem;
+  }
+
+  body[data-slug="index"] .center {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .landing-hero h1 {
+    font-size: clamp(3rem, 17vw, 5.2rem) !important;
+  }
+
+  .landing-actions a,
+  .landing-text-link {
+    width: 100%;
+  }
+}

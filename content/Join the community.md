@@ -1,59 +1,74 @@
-Whether you're here to learn, build, contribute, speculate, or just hang out — you're welcome in the hive.
+1Hive is a global community building public goods and shared infrastructure for humanity.
 
-1Hive is an open community, and there are many ways to get involved. We organize across a few core spaces, each with its own purpose. Here’s a quick overview to help you get oriented:
+The community coordinates across several spaces. Each has a different purpose. Use the one that matches what you are trying to do.
 
----
+## Discord: real-time coordination
 
-### 💬 Discord – Real-Time Community Hub
+Discord is where day-to-day coordination happens.
 
-Our Discord server is where most day-to-day conversations happen.  
-You’ll find:
+Use it to:
 
-- General discussion
-- Working groups (called “swarms”)
-- Real-time help and support
-- Coordination on ongoing initiatives
+- introduce yourself,
+- ask where a contribution might fit,
+- follow active workstreams,
+- coordinate with contributors,
+- get help using 1Hive infrastructure,
+- discuss proposals before they become formal.
 
-Jump in, introduce yourself, and don’t be shy — we’re friendly.
+Discord is best for live conversation and quick context. Important decisions should still become legible in longer-lived places like the Forum or governance interfaces.
 
----
+## Forum: proposals and durable discussion
 
-### 📝 Forum – Proposals and Long-Form Discussion
+The [1Hive Forum](https://forum.1hive.org) is where longer-form discussion belongs.
 
-The [1Hive Forum](https://forum.1hive.org) is our space for:
+Use it for:
 
-- Community proposals
-- Project updates
-- Thoughtful discussion and feedback
+- proposal drafts,
+- funding requests,
+- governance changes,
+- project updates,
+- budget discussion,
+- postmortems and public reasoning.
 
-If you’re planning to make a proposal or want to contribute ideas, this is the place.
+If you want Honey from a shared pool, or if your work affects the direction of the DAO, make the case publicly. The Forum helps the community inspect assumptions, risks, and expected outcomes before resources move.
 
----
+## GitHub: code and documentation
 
-### 🐙 GitHub – Code, Docs, and Coordination
+The [1Hive GitHub organization](https://github.com/1Hive) hosts open-source code, documentation, and project repositories.
 
-Our [GitHub organization](https://github.com/1Hive) hosts:
+Use it to:
 
-- Open source codebases for community tools
-- Docs and contributor guides
-- Project repositories and coordination spaces
+- review code,
+- open issues,
+- improve documentation,
+- track technical work,
+- contribute to public infrastructure.
 
-If you’re looking to contribute code, open issues, or track development, start here.
+GitHub is best for work that should be maintained, reviewed, and reused.
 
----
+## Governance interfaces: shared resource allocation
 
-### 🐝 Honey Governance – How We Make Decisions
+Honey is governed by the community. Governance tools are how 1Hive allocates shared resources, signals support, and manages disputes.
 
-Honey is governed by the community — and we use several tools to coordinate how it's used:
+Key systems include:
 
-- **Gardens v1** – Our main governance interface for voting on proposals and allocating Honey from the Common Pool.
+- **Gardens v1**, used for Common Pool proposals and major Honey governance activity.
+- **Gardens v2**, used for modular signaling and funding experiments.
+- **Celeste**, used for dispute resolution and proposal rule enforcement.
 
-- **Celeste** – A decentralized dispute resolution protocol that helps enforce proposal rules and mediate challenges.
+You do not need to understand every system before participating, but you should learn the relevant process before submitting or challenging proposals.
 
-- **Gardens v2** – A newer, modular platform for experimenting with conviction-based governance which we are using to experiment with different ways of allocating Honey.
+## How to enter well
 
-We'll be adding guides soon to help you understand and participate in each of these systems.
+1Hive is ambitious. It is also practical. The best way to enter is to connect your interest to a concrete contribution.
 
----
+Good first steps:
 
-If you’re curious, you belong here. Come say hello — there’s always something buzzing. 🐝
+- read [[Our mission and values]],
+- understand [[Why Honey?]],
+- review recent proposals,
+- join Discord and say what you are interested in,
+- ask where help is needed,
+- start with a contribution small enough to finish.
+
+The aim is not to “join a server.” The aim is to help build a DAO that can fund public goods and shared infrastructure at global scale.

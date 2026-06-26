@@ -1,39 +1,61 @@
-**1Hive is a community of activists seeking to build a future that is more free, fair, open, and humane.**
+1Hive is building a decentralized autonomous organization that can fund public development at planetary scale.
 
-This guiding vision informs how we work, what we build, and the economic systems we support. But what do we actually mean by *free*, *fair*, *open*, and *humane*?
+The goal is not simply to run a community treasury or maintain another crypto project. The goal is to create an economy owned and governed by its participants, where **Honey** becomes a durable reserve asset for public goods: more valuable than Bitcoin, more resilient than the Dollar, and ultimately distributed broadly enough that every person on earth can share in the upside of the commons.
 
----
+That is an ambitious target. It will not happen through slogans. It requires useful infrastructure, credible governance, deep liquidity, strong norms, and a culture that rewards people for building things others can use.
 
-### 🕊 Free
+## What we are building
 
-We support systems that expand personal and collective autonomy.  
-A free future is one where individuals can make meaningful choices — about how they live, work, and contribute — without coercion or gatekeeping. We value voluntary participation, self-governance, and the freedom to fork, exit, or build alternatives.
+1Hive exists to coordinate people and capital toward work that benefits everyone.
 
----
+In practice, that means building and maintaining:
 
-### ⚖ Fair
+- **Honey**, a community-governed currency for funding, rewarding, and coordinating public goods work.
+- **Shared governance infrastructure**, including proposal systems, conviction voting, dispute resolution, and transparent treasury processes.
+- **A contributor economy**, where useful work can be recognized, funded, and compounded over time.
+- **Public goods and open infrastructure**, especially tools, protocols, research, writing, and cultural work that others can freely build on.
+- **A global distribution network**, so participation in Honey and 1Hive is not limited to early insiders, wealthy speculators, or any single geography.
 
-We aim to reduce structural advantages and create more equitable starting conditions.  
-A fair future is not one where everyone gets the same outcome, but one where rules are transparent, contributions are recognized, and people have a real shot at shaping their own path. We seek to align incentives so that individual success can reinforce collective well-being.
+The long-term aim is a DAO that can fund more public development than any other organization in the world.
 
----
+## Why Honey matters
 
-### 🌐 Open
+Honey is the coordination asset at the center of 1Hive.
 
-We build in public, with transparency and accessibility in mind.  
-An open future is one where knowledge, tools, and governance processes are accessible to anyone who wants to participate. Open systems invite diversity, foster trust, and allow ideas to evolve through collaboration and iteration.
+If Honey becomes more useful, trusted, liquid, and widely held, 1Hive gains more capacity to fund the commons. If 1Hive funds valuable work, Honey becomes more legitimate and more useful. That feedback loop is the core strategy.
 
----
+Bitcoin showed that a scarce digital asset can become a global store of value. The Dollar showed that a currency can coordinate activity across the world, but also that centralized monetary systems create fragility, dependency, and unequal access. Honey aims for a different path: a community-governed asset that can store value, fund useful work, and distribute ownership of shared infrastructure more broadly over time.
 
-### 💛 Humane
+## Our operating principles
 
-We prioritize empathy, cooperation, and community well-being.  
-A humane future is one where technology and markets serve people — not the other way around. We believe that economic coordination can be designed to encourage kindness, reduce harm, and promote long-term stewardship of shared resources.
+### Build useful things
 
----
+Public goods should be real, maintained, and usable. We value work that compounds: software, infrastructure, documentation, governance processes, research, education, liquidity, and community systems that make future work easier.
 
-These values are not slogans — they are design principles.
+### Steward Honey for the long term
 
-They inform how we structure economic incentives, how we govern ourselves, and how we grow 1Hive. By issuing and experimenting with **Honey**, we aim to support regenerative public goods, encourage pro-social contributions, and explore new models of decentralized coordination.
+Honey is not just a token to spend. It is the shared balance sheet of the community. Issuance, treasury allocation, liquidity, and rewards should strengthen Honey’s long-term credibility and usefulness.
 
-If this vision resonates with you, you’re in the right place.
+### Govern in public
+
+Decisions should be legible. Proposals, disputes, funding flows, and governance changes should be easy to inspect and hard to capture. Transparency is not a performance aesthetic. It is how decentralized systems remain accountable.
+
+### Reward contribution, not status
+
+1Hive should make it easier for useful contributors to earn trust, support, and ownership. Reputation should come from work, judgment, and stewardship rather than credentials, proximity, or early access.
+
+### Distribute ownership broadly
+
+A public goods economy should not end with a small group holding most of the upside. Over time, Honey should reach more contributors, users, builders, and communities, eventually becoming broadly distributed to every human on earth.
+
+### Stay forkable and resilient
+
+The systems we build should survive leadership changes, market cycles, jurisdictional pressure, and internal disagreement. A resilient DAO needs modular infrastructure, credible exit rights, strong norms, and the ability to evolve without asking permission from a central authority.
+
+## The vision
+
+1Hive is an attempt to build a new kind of institution: a global, decentralized, community-owned organization that grows by funding what the world needs.
+
+If we succeed, Honey becomes a reserve asset for public goods. 1Hive becomes a funding engine for open development. Contributors around the world gain a direct stake in the infrastructure they help create. And the value generated by the commons flows back into the commons, instead of being captured by states, platforms, or private monopolies.
+
+That is the mission: build the hive, strengthen Honey, fund the commons, and distribute ownership of shared infrastructure to humanity.

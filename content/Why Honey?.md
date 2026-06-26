@@ -1,48 +1,69 @@
-**Honey is how we coordinate around shared values — and share in the value we create.**
+Honey is the coordination asset at the center of 1Hive.
 
-1Hive is more than just a community — it's an evolving economic system. To support a future that is more **free**, **fair**, **open**, and **humane**, we need ways to recognize contributions, fund public goods, and align incentives over the long term.
+1Hive is trying to build a DAO that can fund public goods and shared infrastructure at a scale no traditional organization can match. To do that, the community needs more than a treasury. It needs a currency that can store value, allocate resources, reward contributors, and give people around the world a direct stake in the systems they help build.
 
-Honey is our way of doing that.
+Honey is that currency.
 
----
+## The core idea
 
-### A Currency for Collective Value
+Honey becomes more useful when the 1Hive economy funds useful work.
 
-**Honey (HNY)** is a digital currency issued and governed by the 1Hive community. But more importantly, it’s a shared resource: something we choose to value, use, and steward together.
+The loop is simple:
 
-By collectively treating Honey as:
+1. The community issues and stewards Honey.
+2. Honey funds public goods, contributors, liquidity, infrastructure, and governance.
+3. Those contributions make the network more useful and credible.
+4. More usefulness and credibility increase demand for Honey.
+5. A stronger Honey economy gives 1Hive more capacity to fund the commons.
 
-- **A medium of exchange** — used for tipping, rewarding contributions, and exchanging goods and services within the community
-- **A store of value** — whose scarcity is preserved through limited issuance and long-term stewardship
+The goal is to make this loop durable enough that Honey can become a reserve asset for public development.
 
-...we create a **positive feedback loop**: the more useful and trusted Honey becomes, the more value it can hold — and the more powerfully it can fund our shared goals.
+## More valuable than Bitcoin
 
----
+Bitcoin proved that a scarce digital asset can become globally valuable without being issued by a state. Honey builds on that idea, but adds a productive purpose: funding public goods and shared infrastructure.
 
-### Building Economic Gravity
+Bitcoin mostly stores value. Honey should store value **and** direct value toward useful work.
 
-Honey’s value isn’t imposed — it’s cultivated.  
-Every time we use Honey to:
+For Honey to become more valuable than Bitcoin, it must become more than a scarce asset. It must become a currency people want to hold because it is tied to a growing network of public goods, productive contributors, governance rights, liquidity, and real social usefulness.
 
-- Reward meaningful work
-- Fund collective infrastructure
-- Support each other
-- Launch aligned initiatives
+## More resilient than the Dollar
 
-...we strengthen its legitimacy and utility.
+The Dollar coordinates global activity, but it depends on centralized institutions, monetary policy, debt markets, and political control. It is powerful, but fragile in ways that matter.
 
-As more people accept Honey, earn it, and hold it with confidence, it becomes easier to coordinate large-scale efforts without relying on external funding or centralized gatekeepers.
+Honey aims for a different form of resilience:
 
----
+- governance that can be inspected and challenged,
+- issuance controlled by transparent community processes,
+- infrastructure that can be forked and improved,
+- ownership distributed across contributors and users,
+- value tied to public goods rather than state power.
 
-### Long-Term Incentives
+A resilient currency does not depend on one country, one company, one bank, or one leadership group. It survives because the network around it remains useful.
 
-Honey is scarce by design. Issuance is limited and governed by the community, ensuring that supply decisions reflect collective interest — not profit-maximizing extraction.
+## Funding public development
 
-This scarcity, combined with growing utility and active use, supports Honey’s role as a **store of value**. And because Honey is held and used by the same people who help build the ecosystem, its growth is a **shared upside** — not a private one.
+The highest purpose of Honey is to fund work the world needs but markets and states routinely underfund.
 
----
+That includes open-source software, governance tooling, educational resources, dispute resolution systems, research, liquidity infrastructure, public data, community operations, and cultural work that helps people coordinate.
 
-Honey allows us to build an economy that works for us — one where value flows toward public goods, creative collaboration, and long-term thinking.
+If 1Hive succeeds, Honey becomes a mechanism for routing value toward public development continuously, transparently, and globally.
 
-**The more we use it to support what we care about, the more valuable it becomes.**
+## Broad distribution
+
+A public goods economy should not enrich only early insiders.
+
+Honey’s long-term legitimacy depends on broad distribution: to contributors, users, builders, maintainers, communities, and eventually every human on earth. That does not mean giving Honey away without strategy. It means designing issuance, rewards, liquidity, and participation so ownership expands as the network becomes more useful.
+
+The more broadly Honey is held by people who benefit from and contribute to shared infrastructure, the stronger the system becomes.
+
+## The standard
+
+Honey should be judged by concrete outcomes:
+
+- Does it fund useful public goods?
+- Does it reward contributors who create lasting value?
+- Does it become more liquid, trusted, and widely held?
+- Does governance remain transparent and hard to capture?
+- Does the value created by the commons flow back into the commons?
+
+That is why Honey matters. It is not just a token. It is the economic engine 1Hive is building to fund public goods at planetary scale.
