@@ -10,7 +10,7 @@ For website, documentation, and tooling contributions, start with [[How you can 
 
 For work that needs shared funding or a governance decision:
 
-1. Discuss an idea in Discord or the Forum.
+1. Develop the idea in the [1Hive website repository](https://github.com/1Hive/1hive.org), using an existing issue or pull request when relevant. Discord can help with live coordination.
 2. Verify the relevant deployment's current rules, eligibility, and available funds.
 3. Prepare a clear proposal with scope, budget, recipient, risks, and expected evidence, then use the applicable governance process.
 4. Respond to questions, challenges, and requested changes.
@@ -64,16 +64,16 @@ Use Celeste-related resources to research how to:
 
 ## Discussion and coordination
 
-- [1Hive Forum](https://forum.1hive.org)
+- [1Hive website repository](https://github.com/1Hive/1hive.org)
 - [1Hive Discord](https://discord.gg/1hive)
 - [1Hive GitHub](https://github.com/1Hive)
 
-Use the Forum for proposal drafts, budgets, governance reasoning, and public records. Use Discord for live coordination and contributor discovery. Use GitHub for code, documentation, issues, and technical review.
+Use the website repository for contribution concepts, proposal drafts, budget assumptions, governance reasoning, and public records. Use issues for concrete questions and pull requests for reviewable changes. Use Discord for live coordination and contributor discovery. Use each project's own GitHub repository for its code, documentation, and technical review.
 
 A useful rule of thumb:
 
 - If it needs quick discussion, use Discord.
-- If it needs durable public reasoning, use the Forum.
+- If it needs durable public reasoning, use the [website repository](https://github.com/1Hive/1hive.org).
 - If it needs maintained technical work, use GitHub.
 - If it moves Honey, verify the applicable governance and execution process first.
 - If it involves a rule violation or challenge, check the relevant rules and dispute-resolution integration.
@@ -86,7 +86,7 @@ Each tool does one part of the work:
 - **Gardens v1** allocates Common Pool resources.
 - **Gardens v2** supports focused allocation experiments.
 - **Celeste** provides dispute resolution and rule enforcement.
-- **Forum and Discord** help people form proposals and coordinate work.
+- **GitHub and Discord** help people form proposals and coordinate work.
 - **GitHub** makes technical contributions inspectable and reusable.
 
 The point of this infrastructure is to make it possible for a global community to fund public goods, steward shared resources, and keep improving the systems it depends on. Site and contributor-process improvements can proceed independently of research into protocol changes. The [[Improvement proposals|working-draft proposal process]] does not change any of the deployments or rules listed here.

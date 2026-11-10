@@ -11,7 +11,7 @@ The [[First contribution launchpad]] offers three lanes: core infrastructure, co
 1. **Choose a meaningful outcome.** Identify who benefits, the problem, and how the result strengthens Honey, contributor capacity, or the commons.
 2. **Check existing work.** Look for an issue, pull request, or discussion you can help move forward before starting a duplicate.
 3. **Prepare something inspectable.** Link sources, explain what changed, and include the checks or evidence someone else needs to review it.
-4. **Share it in the right place.** Use GitHub for maintained code and documentation, and the Forum for longer discussion. Keep publishing and other actions within the permissions you have.
+4. **Share it in the right place.** Use the [1Hive website repository](https://github.com/1Hive/1hive.org) for contribution concepts and public reasoning, and the relevant project repository for maintained code and documentation. Keep publishing and other actions within the permissions you have.
 5. **Close the loop.** Respond to review, finish the improvement, and make the outcome easy to find.
 
 Small, reversible website changes can follow the [repository contribution guide](https://1hive.org/CONTRIBUTING.md). The [[Improvement proposals|working-draft improvement process]] provides a template for larger changes that need a durable plan. It is not an extra approval step for every contribution.

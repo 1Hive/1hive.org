@@ -57,7 +57,7 @@ This process is a working draft for repository contributions. It does not establ
 Join our community to learn more and get involved:
 
 - [Discord](https://discord.gg/1hive)
-- [Forum](https://forum.1hive.org/)
+- [GitHub repository](https://github.com/1Hive/1hive.org)
 
 ## License
 

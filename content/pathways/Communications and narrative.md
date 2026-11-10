@@ -14,7 +14,7 @@ The story becomes stronger when it connects an ambition to something real: a use
 
 ## Existing foundations
 
-Start with [[Our mission and values]], [[Why Honey?]], and the proposed [[Why now|AI-era direction]]. Use original [repository work](https://github.com/1Hive) and [Forum discussions](https://forum.1hive.org) for claims about activity. The [public-activity skill](https://1hive.org/skills/summarize-public-activity/SKILL.md) and [source-checking skill](https://1hive.org/skills/check-sources/SKILL.md) provide reusable workflows.
+Start with [[Our mission and values]], [[Why Honey?]], and the proposed [[Why now|AI-era direction]]. Use original [project work](https://github.com/1Hive) and [issues](https://github.com/1Hive/1hive.org/issues) or [pull requests](https://github.com/1Hive/1hive.org/pulls) in the website repository for claims about activity. The [public-activity skill](https://1hive.org/skills/summarize-public-activity/SKILL.md) and [source-checking skill](https://1hive.org/skills/check-sources/SKILL.md) provide reusable workflows.
 
 Read the actual artifact and latest relevant discussion. Distinguish an idea, a working prototype, a merged change, a deployment, and observed use. Historical material can explain the context without establishing current availability.
 

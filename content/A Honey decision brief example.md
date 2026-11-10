@@ -21,7 +21,7 @@ Better evidence supports Honey stewardship. A reusable read-only brief also give
 
 The local website source reviewed on 10 November 2026 includes separate decision, funding, and delivery fields in `proposals/TEMPLATE.md`, a proposal browser in `scripts/proposals.ts`, and source-checking guidance. These are repository features, not proof of live deployment or a verified Honey integration.
 
-Before implementation, check the latest [website work](https://github.com/1Hive/1hive.org/pulls), [Forum discussions](https://forum.1hive.org), and the selected deployment or tool. Extend an existing reader or record where possible. Current duplicate-work checks and selection of a suitable public Honey example remain unfinished in this illustrative concept.
+Before implementation, check the latest [website work](https://github.com/1Hive/1hive.org/pulls), [repository issues](https://github.com/1Hive/1hive.org/issues), and the selected deployment or tool. Extend an existing reader or record where possible. Current duplicate-work checks and selection of a suitable public Honey example remain unfinished in this illustrative concept.
 
 ## Contribution and alternatives
 

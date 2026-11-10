@@ -17,7 +17,7 @@ Use when a human wants to catch up on public discussions, repository work, or go
 
 ## Workflow
 
-1. Use the [infrastructure map](https://1hive.org/Navigating-core-community-infrastructure) to locate relevant original sources. Read the public Forum and relevant GitHub issues, pull requests, and releases where accessible. Consult a governance interface only when its current status can be verified.
+1. Use the [infrastructure map](https://1hive.org/Navigating-core-community-infrastructure) to locate relevant original sources. Read the [website repository](https://github.com/1Hive/1hive.org) and relevant project issues, pull requests, and releases where accessible. Consult a governance interface only when its current status can be verified.
 2. Record the period covered, when each source was checked, and any pagination, access, or coverage limits. Do not present a search snippet as a complete discussion.
 3. Read the latest relevant entries before reporting a status. Distinguish a proposed idea, an active discussion, an approved decision, merged code, and a deployed change. A vote or comment alone is not proof of an outcome.
 4. Group changes by topic, remove duplicates, and prioritize decisions, useful contributions, blockers, and opportunities that match the human's interests.

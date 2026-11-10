@@ -25,7 +25,7 @@ An identifier is only a reference. Inclusion here or merger of a draft does not 
 1. Check existing issues, pull requests, and proposals for overlapping work.
 2. Copy the template to a descriptive Markdown file in this directory. Keep `stage: working-draft` and `id: unassigned` until a maintainer assigns the next unused number. A file name such as `draft-clearer-onboarding.md` is enough to begin.
 3. Explain the smallest useful outcome, who can deliver it, evidence, risks, and how to check the result. Mark unknowns rather than inventing commitments.
-4. Open a draft pull request when you are ready and authorized to share it. Add its path to the explicit public allowlist in `quartz/plugins/emitters/agentResources.ts` and link relevant discussion. The browser includes only allowlisted proposals. Do not create a duplicate Forum discussion unless it helps reach the people affected.
+4. Open a draft pull request when you are ready and authorized to share it. Add its path to the explicit public allowlist in `quartz/plugins/emitters/agentResources.ts` and link relevant discussion. The browser includes only allowlisted proposals. Keep related reasoning in the existing repository issue or pull request rather than opening duplicate discussions.
 5. Keep implementation and review moving where authorized. Use [proposal 0001](0001-improvement-process.md) as a suggested workflow, not a requirement to wait for broad consensus on routine maintenance.
 
 All proposal files are intended to be public. Do not include private conversations, credentials, or unnecessary personal information. Agent-assisted drafts remain the submitting contributor's responsibility.

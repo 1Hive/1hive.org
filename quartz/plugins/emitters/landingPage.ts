@@ -463,8 +463,7 @@ const landingHtml = `<!DOCTYPE html>
         <span>Global community. Shared infrastructure. Public goods.</span>
         <nav aria-label="Community links">
           <a href="https://discord.gg/1hive">Discord</a>
-          <a href="https://forum.1hive.org">Forum</a>
-          <a href="https://github.com/1Hive">GitHub</a>
+          <a href="https://github.com/1Hive/1hive.org">GitHub</a>
           <a href="https://gardens.1hive.org">DAO</a>
         </nav>
       </footer>

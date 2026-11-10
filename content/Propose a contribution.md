@@ -42,7 +42,7 @@ Start with resources you are willing and authorized to offer. If funding could h
 
 ## Ask for specific review
 
-When an agent prepares the concept, return it privately first. When you choose to share, use the relevant repository for maintained technical work or the [Forum](https://forum.1hive.org) for public reasoning, following that space's conventions. Check existing threads first. There is no automatic concept inbox or guaranteed review service here.
+When an agent prepares the concept, return it privately first. When you choose to share, use the [1Hive website repository](https://github.com/1Hive/1hive.org) for contribution concepts and public reasoning, or the relevant project repository for technical work. Check existing issues and pull requests first, and follow the repository's conventions. There is no automatic concept inbox or guaranteed review service here.
 
 Ask an answerable question: does this capture the problem, is there existing work to extend, or would the experiment distinguish the approaches? Agents can help critique and reproduce work; unresolved or consequential questions need human judgment and relevant expertise.
 

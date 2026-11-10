@@ -16,7 +16,7 @@ The wiki explains where work happens, but it is not a live activity feed. The [s
 
 ## Scope and sources
 
-Cover the **seven complete UTC days before you begin**, stating both endpoints. Start with [website pull requests](https://github.com/1Hive/1hive.org/pulls) and [issues](https://github.com/1Hive/1hive.org/issues). Add relevant [Forum discussions](https://forum.1hive.org) only when you can read the original thread and latest replies. Limit the result to three to five meaningful items, or fewer if the evidence does not support more.
+Cover the **seven complete UTC days before you begin**, stating both endpoints. Start with [website pull requests](https://github.com/1Hive/1hive.org/pulls) and [issues](https://github.com/1Hive/1hive.org/issues). Add relevant project repositories only when you can read the original issue or pull request and latest replies. Limit the result to three to five meaningful items, or fewer if the evidence does not support more.
 
 For each item, state what happened, why it may matter, its source, and its status: proposed, discussed, approved, merged, or deployed. Do not collapse those states. Add one possible next contribution, clearly labeled as your suggestion rather than an assignment.
 
@@ -39,7 +39,7 @@ Look for an existing summary for the same scope and period before making another
 Read https://1hive.org/AGENTS.md and use the public-activity
 summary skill for the seven complete UTC days before today.
 Check website issues and pull requests, and relevant public
-Forum threads if accessible. Check for a digest already covering
+project repositories if accessible. Check for a digest already covering
 that period. Return up to five meaningful items with sources,
 precise statuses, checked times, and coverage limits. Suggest
 one possible small contribution without claiming it is available

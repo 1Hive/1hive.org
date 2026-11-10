@@ -10,13 +10,13 @@ This is a training example, not a submitted proposal, real contributor review, o
 
 > Every contribution must first be accepted through proposal 0001. Once your proposal is merged, the Contributor Rewards pool automatically pays you Honey. Personal agents can already subscribe to a weekly 1Hive activity digest. The site provides portable Markdown skills that work without a shared model account.
 
-This request authorizes a review, corrections, and a draft outline. It does not authorize subscriptions, a Forum post, a funding request, or starting the pilot.
+This request authorizes a review, corrections, and a draft outline. It does not authorize subscriptions, a public issue or comment, a funding request, or starting the pilot.
 
 ## 2. Evidence boundary
 
 **Repository snapshot inspected:** `654576bdb2705d3c3de77796e1707150c43df400`, the baseline used to prepare this example, on 2026-11-10 UTC. The paths below refer to that local revision. Their relative links open the documents shipped alongside this example, which may change in later revisions. To reproduce the historical check in a checkout containing that commit, read the files with `git show <revision>:<path>`.
 
-**Not checked:** live GitHub issues and pull requests, Forum activity, deployed site contents, Gardens configuration or balances, and any on-chain payment records. The example makes no claim about their current state. Repository evidence can settle what this documented workflow says, not whether a separate reward or digest service exists elsewhere.
+**Not checked:** live GitHub issues and pull requests, deployed site contents, Gardens configuration or balances, and any on-chain payment records. The example makes no claim about their current state. Repository evidence can settle what this documented workflow says, not whether a separate reward or digest service exists elsewhere.
 
 ### Source observations
 

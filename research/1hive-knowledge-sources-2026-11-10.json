@@ -86,30 +86,6 @@
       "not_verified": ["covenant configured for any current deployment"]
     },
     {
-      "id": "forum_root",
-      "kind": "discussion_entry_point",
-      "url": "https://forum.1hive.org/",
-      "purpose": "Public community discussion",
-      "observed_state": "502 from web reader",
-      "not_verified": ["current topic activity", "site-wide availability"]
-    },
-    {
-      "id": "forum_latest",
-      "kind": "discussion_listing",
-      "url": "https://forum.1hive.org/latest",
-      "purpose": "Newest public discussions",
-      "observed_state": "Inaccessible through web reader",
-      "not_verified": ["latest discussion status"]
-    },
-    {
-      "id": "forum_community",
-      "kind": "discussion_listing",
-      "url": "https://forum.1hive.org/c/community/5",
-      "purpose": "Discover public community topics",
-      "observed_state": "Readable crawled page; crawl reported four months old",
-      "not_verified": ["complete current listing"]
-    },
-    {
       "id": "treasury_announcement",
       "kind": "historical_primary_discussion",
       "url": "https://forum.1hive.org/t/updates-to-1hives-treasury-process/5846",
@@ -121,7 +97,8 @@
         "independent approval evidence",
         "execution",
         "current balances"
-      ]
+      ],
+      "current_access": "Inaccessible: former forum no longer live. Historical provenance only; do not use as a current participation destination."
     },
     {
       "id": "gardens_v1",
@@ -322,7 +299,7 @@
       "id": "pr_markee_50",
       "kind": "pull_request",
       "url": "https://github.com/1Hive/markee/pull/50",
-      "title": "🚀 Release: dev → main, with review fixes",
+      "title": "\ud83d\ude80 Release: dev \u2192 main, with review fixes",
       "state": "open",
       "draft": false,
       "merged": false,
@@ -370,7 +347,7 @@
           "sha": "58d830131176a1ec7da7a32d274a80d6313f3cc3",
           "url": "https://github.com/1Hive/gardens-v2/commit/58d830131176a1ec7da7a32d274a80d6313f3cc3",
           "date": "2026-10-30T22:08:58Z",
-          "title": "🛡️ Keep strategy upgrades deployable and migrations resumable (#972)"
+          "title": "\ud83d\udee1\ufe0f Keep strategy upgrades deployable and migrations resumable (#972)"
         },
         {
           "sha": "40ec1db6d424a1dc7d6298add19b87c7fb80e4f8",
@@ -401,25 +378,25 @@
           "sha": "80f7db9ba4cc48be2817e6b952b85188b561f273",
           "url": "https://github.com/1Hive/markee/commit/80f7db9ba4cc48be2817e6b952b85188b561f273",
           "date": "2026-11-06T21:52:35Z",
-          "title": "⏪ Revert website integration modal redesign"
+          "title": "\u23ea Revert website integration modal redesign"
         },
         {
           "sha": "993de263064fcf46d1b35d94c96c8d82d9eeebc9",
           "url": "https://github.com/1Hive/markee/commit/993de263064fcf46d1b35d94c96c8d82d9eeebc9",
           "date": "2026-11-06T19:50:18Z",
-          "title": "✨ Redesign website integration modal with AI and SDK tabs"
+          "title": "\u2728 Redesign website integration modal with AI and SDK tabs"
         },
         {
           "sha": "f138e1bfd02de59c48e0d448807784d0677024a3",
           "url": "https://github.com/1Hive/markee/commit/f138e1bfd02de59c48e0d448807784d0677024a3",
           "date": "2026-11-05T06:59:25Z",
-          "title": "✨ Choose moderation severity with descriptive cards"
+          "title": "\u2728 Choose moderation severity with descriptive cards"
         },
         {
           "sha": "b21099982fd91c94b93c09fcb5f630fc7a95fe66",
           "url": "https://github.com/1Hive/markee/commit/b21099982fd91c94b93c09fcb5f630fc7a95fe66",
           "date": "2026-11-05T06:54:17Z",
-          "title": "✨ Include selected moderation severity in website integration setup"
+          "title": "\u2728 Include selected moderation severity in website integration setup"
         }
       ],
       "not_verified": ["deployed revision", "activity outside sampled history"]
@@ -534,5 +511,10 @@
     "private_sources_used": false,
     "onchain_state_checked": false,
     "recurring_monitor_created": false
+  },
+  "coordination_update": {
+    "date": "2026-11-10",
+    "status": "The former forum is no longer live; historical treasury citation is inaccessible and retained only for provenance.",
+    "current_entry_point": "https://github.com/1Hive/1hive.org"
   }
 }

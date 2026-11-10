@@ -36,7 +36,7 @@ A funding proposal should explain:
 - what milestones or evidence the community should expect,
 - what risks or tradeoffs are involved.
 
-Use the [Forum](https://forum.1hive.org) for public reasoning and the relevant governance interface for the actual request and decision. Check submission requirements and execution conditions first. Discussion, a repository merge, and approval of a funding request are separate events.
+Use the [1Hive website repository](https://github.com/1Hive/1hive.org) for public reasoning and the relevant governance interface for the actual request and decision. Check submission requirements and execution conditions first. Discussion, a repository merge, and approval of a funding request are separate events.
 
 If your work only needs a website or documentation change, start with the normal contribution workflow. The [[Improvement proposals|working-draft improvement process]] is available for a larger plan; it does not approve spending.
 

@@ -19,7 +19,7 @@ Use when someone is new to 1Hive, wants help finding a contribution, or needs a 
 
 1. Read the [mission and values](https://1hive.org/Our-mission-and-values), [Honey overview](https://1hive.org/Why-Honey), and [ways to contribute](https://1hive.org/How-you-can-contribute).
 2. Use the [infrastructure map](https://1hive.org/Navigating-core-community-infrastructure) to explain where discussion, technical work, and governance happen. Keep the explanation relevant to the human's goal.
-3. If suggesting active work, check original [issues](https://github.com/1Hive/1hive.org/issues), [pull requests](https://github.com/1Hive/1hive.org/pulls), or [Forum discussions](https://forum.1hive.org). Check for an existing owner or duplicate effort. Record the date and links. If inaccessible, identify a bounded research question and label current availability unverified; do not substitute arbitrary documentation chores.
+3. If suggesting active work, check original [issues](https://github.com/1Hive/1hive.org/issues), [pull requests](https://github.com/1Hive/1hive.org/pulls), and the relevant project repository. Check for an existing owner or duplicate effort. Record the date and links. If inaccessible, identify a bounded research question and label current availability unverified; do not substitute arbitrary documentation chores.
 4. Read the [launchpad](https://1hive.org/First-contribution-launchpad). Recommend one direction across core infrastructure, communications and narrative, or tangible public goods. Explain the beneficiary, strategic connection, reusable result, and what needs confirmation. Use [shape a contribution](../shape-contribution/SKILL.md) when the human wants to originate a concept.
 
 ## Return
