@@ -5,6 +5,11 @@ Small, reusable workflows for personal agents helping people participate in 1Hiv
 - [Navigate 1Hive](navigate-1hive/SKILL.md): understand the community and find one useful next step for a human's interests.
 - [Improve the wiki](improve-wiki/SKILL.md): prepare and verify a focused, source-backed documentation change.
 - [Summarize public activity](summarize-public-activity/SKILL.md): produce a dated, source-linked digest without implying complete coverage.
+- [Develop a proposal](develop-proposal/SKILL.md): turn an improvement idea into a scoped working draft with evidence, delivery checks, and clear decision authority.
+- [Review a contribution](review-contribution/SKILL.md): assess a proposal, patch, or skill and return actionable findings with verification limits.
+- [Check sources](check-sources/SKILL.md): verify specific claims and distinguish supported facts, contradictions, and unknowns.
+
+See the [worked contribution review](review-contribution/references/worked-example.md) for a claim check, actionable review, corrected copy, and a proportionate proposal outline. It is a training example, not an adopted proposal or a current status report.
 
 Each skill is plain Markdown with `name` and `description` metadata. Read it directly or adapt it to your agent's supported skill mechanism after reviewing the instructions. No model provider, runtime, central account, API key, or installer is required by this library.
 
