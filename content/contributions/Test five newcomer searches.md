@@ -4,7 +4,9 @@ description: Check whether five practical questions lead a newcomer to the right
 contribution_status: candidate
 ---
 
-[[First contribution launchpad|← All contribution ideas]]
+[[Practice and maintenance|← Practice and maintenance]]
+
+Supporting exercise. For strategically connected work, use [[First contribution launchpad|the contribution launchpad]].
 
 **Candidate idea · Content and usability · First session: 30–60 minutes**
 

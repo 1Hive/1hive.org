@@ -9,6 +9,8 @@ description: Turn a 1Hive improvement idea into a scoped, source-backed working 
 
 Use when an improvement spans several contributions, introduces a process, or needs a durable decision record. Read [AGENTS.md](../../AGENTS.md), the [proposal workflow](../../proposals/README.md), and [template](../../proposals/TEMPLATE.md). A small, reversible fix can use an ordinary issue or pull request; do not manufacture a proposal requirement.
 
+Before formal on-chain improvement proposals, research deployed dependencies, authority, existing obligations, failure modes, and alternatives. An early idea can remain a [contribution concept](../../contributions/CONCEPT.md) or research note until those questions are understood. Do not prematurely turn a possible protocol direction into an executable proposal.
+
 ## Inputs
 
 - The problem, intended beneficiaries, and the human's desired outcome.

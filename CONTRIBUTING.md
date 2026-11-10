@@ -6,7 +6,7 @@ Help make 1Hive easier to understand and participate in. Small, accurate improve
 
 Read the [mission and values](https://1hive.org/Our-mission-and-values) and check [existing issues](https://github.com/1Hive/1hive.org/issues) and [pull requests](https://github.com/1Hive/1hive.org/pulls). Small, reversible site and documentation improvements can go straight to a focused pull request. For a substantial architecture change, coordinate with the maintainers responsible for it. A documentation change does not itself establish community policy or authorize funding.
 
-Good first changes include a broken-link fix, a clearer explanation, a source-backed correction, or a small reusable skill. Prefer one complete improvement over a large collection of speculative pages.
+For self-directed work, start with the [contribution launchpad](https://1hive.org/First-contribution-launchpad) and [concept template](contributions/CONCEPT.md). Explain who benefits, how the work advances Honey, contributor capacity, or the commons, and the smallest useful experiment. A source-backed correction or small skill can be valuable when it serves that purpose. Prefer a complete, reusable result over a collection of speculative pages.
 
 ## When a proposal helps
 

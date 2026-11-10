@@ -12,6 +12,8 @@ export const agentResources = [
   "CODE_OF_CONDUCT.md",
   "skills/README.md",
   "skills/navigate-1hive/SKILL.md",
+  "skills/shape-contribution/SKILL.md",
+  "contributions/CONCEPT.md",
   "skills/improve-wiki/SKILL.md",
   "skills/summarize-public-activity/SKILL.md",
   "skills/develop-proposal/SKILL.md",

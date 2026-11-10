@@ -23,6 +23,7 @@ test("agent resources emit the exact allowlisted source files and refresh on a p
     "AGENTS.md",
     "CODE_OF_CONDUCT.md",
     "CONTRIBUTING.md",
+    "contributions",
     "proposals",
     "skills",
   ])

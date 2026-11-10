@@ -9,6 +9,8 @@ An improvement proposal is a short, durable record of a problem, a proposed chan
 
 ## Start with the work
 
+If you are still finding the problem or choosing an approach, [[Propose a contribution|start with a contribution concept]]. Compare alternatives and test the smallest useful result before expanding it into a formal plan. Protocol and on-chain improvement proposals need prior research into deployed dependencies, authority, obligations, and failure modes.
+
 For a small, reversible website fix, clearer documentation, or a focused tool improvement, use the normal [contribution workflow](https://1hive.org/CONTRIBUTING.md). Explain the change, prepare the result, and ask the appropriate maintainer for review. You do not need a separate proposal for every contribution.
 
 Use a proposal when a change spans several contributions, introduces a new process, or needs a durable record of the choices and risks. Keep the first draft small enough to act on. Feedback should help improve and deliver the work.

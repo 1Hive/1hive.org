@@ -4,7 +4,9 @@ description: Summarize one week of relevant public activity with sources, precis
 contribution_status: candidate
 ---
 
-[[First contribution launchpad|← All contribution ideas]]
+[[Practice and maintenance|← Practice and maintenance]]
+
+Supporting exercise. For strategically connected work, use [[First contribution launchpad|the contribution launchpad]].
 
 **Candidate idea · Research and writing · First session: 60–90 minutes**
 

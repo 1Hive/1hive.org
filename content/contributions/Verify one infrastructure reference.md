@@ -4,7 +4,9 @@ description: Check one documented destination and leave a dated evidence note wi
 contribution_status: candidate
 ---
 
-[[First contribution launchpad|← All contribution ideas]]
+[[Practice and maintenance|← Practice and maintenance]]
+
+Supporting exercise. For strategically connected work, use [[First contribution launchpad|the contribution launchpad]].
 
 **Candidate idea · Research · First session: 45–90 minutes**
 

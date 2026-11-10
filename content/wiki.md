@@ -11,7 +11,10 @@ If you’re new to 1Hive or want to get involved, start here:
 - [[Our mission and values]]: understand the principles and long-term ambitions behind the work.
 - [[Why Honey?]]: learn the purpose of Honey in a public goods economy.
 - [[How you can contribute]]: choose a small outcome and get it ready for review.
-- [[First contribution launchpad]]: pick a source-grounded candidate task with a clear finish line.
+- [[Why now]]: explore a proposed direction for public goods in an age of AI automation.
+- [[First contribution launchpad]]: explore infrastructure, communications, and tangible public goods.
+- [[Propose a contribution]]: originate an evidence-backed concept and a bounded first experiment.
+- [[Knowledge commons]]: explore curated, governed knowledge and retrieval as a possible next step.
 - [[Participate with your agent]]: bring your existing personal agent to learn, prepare, and contribute.
 - [[Join the community]]: find the right place for discussion, coordination, and maintained work.
 - [[Improvement proposals]]: use a working-draft process and template for changes that need a durable plan.

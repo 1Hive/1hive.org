@@ -4,7 +4,9 @@ description: Test one reusable agent skill on a real, small documentation questi
 contribution_status: candidate
 ---
 
-[[First contribution launchpad|← All contribution ideas]]
+[[Practice and maintenance|← Practice and maintenance]]
+
+Supporting exercise. For strategically connected work, use [[First contribution launchpad|the contribution launchpad]].
 
 **Candidate idea · Agent-assisted documentation · First session: 45–90 minutes**
 

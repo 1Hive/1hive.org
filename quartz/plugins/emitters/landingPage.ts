@@ -405,11 +405,11 @@ const landingHtml = `<!DOCTYPE html>
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
           <h1 id="hero-title">Public goods for humanity.</h1>
-          <p class="support">1Hive is building a community-owned economy for public goods. We coordinate around Honey, open infrastructure, and useful work people can inspect and improve. Start with one contribution, on your own or with your personal agent.</p>
+          <p class="support">People, agents, and shared purpose. 1Hive is building a community-owned economy for public goods, with Honey at its center. Help turn ideas, judgment, and voluntarily contributed compute into useful work the world can build on.</p>
           <div class="actions">
-            <a class="button primary" href="/First-contribution-launchpad">Find your first contribution</a>
+            <a class="button primary" href="/First-contribution-launchpad">Find your contribution</a>
             <a class="button" href="/Participate-with-your-agent">Bring your agent</a>
-            <a class="button" href="/wiki">Explore the wiki</a>
+            <a class="button" href="/Why-now">Why now?</a>
           </div>
         </div>
         <div class="hero-mark" aria-hidden="true">
@@ -419,16 +419,28 @@ const landingHtml = `<!DOCTYPE html>
 
       <section class="section" aria-labelledby="start-title">
         <div>
-          <p class="kicker">Start here</p>
-          <h2 id="start-title">Help build the commons.</h2>
+          <p class="kicker">Three ways to contribute</p>
+          <h2 id="start-title">Build the commons.</h2>
         </div>
-        <nav class="link-list" aria-label="Wiki starting points">
-          <a href="/Our-mission-and-values"><span>01</span><strong>Mission and values</strong><em>Understand the principles and ambitions behind the work.</em></a>
-          <a href="/Why-Honey"><span>02</span><strong>Why Honey?</strong><em>Explore Honey's role in a public goods economy.</em></a>
-          <a href="/How-you-can-contribute"><span>03</span><strong>Make a contribution</strong><em>Choose a small outcome, prepare it, and get it reviewed.</em></a>
-          <a href="/Participate-with-your-agent"><span>04</span><strong>Bring your agent</strong><em>Use your existing agent, shared instructions, and reusable skills.</em></a>
-          <a href="/Improvement-proposals"><span>05</span><strong>Plan an improvement</strong><em>A working-draft process and template for changes that need a plan.</em></a>
-          <a href="/Curating-community-contributions"><span>06</span><strong>Curate useful work</strong><em>Evaluate contributions and check the relevant funding process.</em></a>
+        <nav class="link-list" aria-label="Contribution pathways">
+          <a href="/pathways/Core-infrastructure"><span>01</span><strong>Build the core</strong><em>Honey tools, agents, skills, documentation, and governance research.</em></a>
+          <a href="/pathways/Communications-and-narrative"><span>02</span><strong>Make the work legible</strong><em>Stories, explainers, and dashboards grounded in real work.</em></a>
+          <a href="/pathways/Tangible-public-goods"><span>03</span><strong>Produce public goods</strong><em>Bounded research, open data, environments, recipes, and reusable results.</em></a>
+        </nav>
+      </section>
+
+      <section class="infra" aria-labelledby="direction-title">
+        <div class="infra-copy">
+          <p class="kicker">Why now</p>
+          <h2 id="direction-title">New capacity. Shared benefit.</h2>
+          <p>AI automation could reshape livelihoods and concentrate power. It also gives people new ways to build together. Our proposed direction is to turn that capacity toward decentralized institutions and public goods for humanity.</p>
+          <p><a class="button primary" href="/Why-now">Explore the direction</a></p>
+        </div>
+        <nav class="infra-links" aria-label="Start a meaningful contribution">
+          <a href="/Propose-a-contribution"><strong>Bring your own idea</strong><span>Find a real need, check the evidence, and test a first result.</span></a>
+          <a href="/Knowledge-commons"><strong>Grow shared knowledge</strong><span>Explore a curated knowledge commons that people and agents can build on.</span></a>
+          <a href="/Why-Honey"><strong>Understand Honey</strong><span>The coordination asset at the center of 1Hive's public-goods economy.</span></a>
+          <a href="/Improvement-proposals"><strong>Plan an improvement</strong><span>A working-draft process and template for changes that need a durable plan.</span></a>
         </nav>
       </section>
 

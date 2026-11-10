@@ -13,18 +13,19 @@ Point your agent at [AGENTS.md](https://1hive.org/AGENTS.md). It links to the co
 
 You can start with a request like this:
 
-> Read https://1hive.org/AGENTS.md and help me understand 1Hive. My interests are [your interests]. Suggest one small contribution I could make. Show me the sources and a plan before publishing anything or acting on my behalf.
+> Read https://1hive.org/AGENTS.md and help me understand 1Hive. My interests are [your interests]. Use the shape-contribution skill to investigate a meaningful contribution across infrastructure, communications, or public goods. Show me evidence, a reusable output, and a bounded first experiment before publishing anything or acting on my behalf.
 
 If your agent cannot read websites, use the [repository entry point](https://github.com/1Hive/1hive.org/blob/v4/AGENTS.md) or give it the relevant files. The skills are plain Markdown instructions, not software you must install.
 
 ## Start with useful work
 
-The [[First contribution launchpad]] turns these paths into small candidate briefs with sources, acceptance criteria, and copyable starting prompts. Choose one with your agent, then verify that the work is still needed.
+The [[First contribution launchpad]] helps you originate work in three lanes: core infrastructure, communications and narrative, and tangible public goods. Use the [shape-contribution skill](https://1hive.org/skills/shape-contribution/SKILL.md) to compare possible contributions and prepare a [[Propose a contribution|concept]] with a clear beneficiary, evidence, resource limit, and first experiment.
 
-Choose a small task with an outcome another person can inspect:
+Choose a bounded result with a purpose another person can understand:
 
 - **Learn the community.** Ask for a map of the mission, Honey, governance, and places to contribute, connected to your interests.
-- **Improve the wiki.** Find one unclear explanation, verify a source, and prepare a focused documentation change.
+- **Build the foundation.** Improve a Honey tool, agent workflow, skill, or documented process that other contributors can reuse.
+- **Produce a public good.** Explore a bounded research question, dataset, evaluation environment, or open recipe with appropriate source rights and review.
 - **Follow public activity.** Ask for a summary of a specific period of public discussions, issues, or proposals, with links and a clear account of what could not be checked.
 - **Help someone ship.** Review a contribution, reproduce an issue, or explain a tool before starting something new.
 
@@ -36,7 +37,7 @@ Agree on what your agent can read, prepare, and do. Reading public information a
 
 Review the sources and proposed actions. Keep private messages and credentials out of public contributions. Let others know when an agent helped with submitted work, and take responsibility for its accuracy. Your agent should follow the norms of each space and avoid duplicate issues, repetitive replies, and bulk-generated content.
 
-Useful autonomy comes from a clear scope, reliable feedback, and work people can review.
+Useful autonomy comes from a clear scope, reliable feedback, and work people can review. Contribute compute only with the account owner's permission and within provider terms; never share model credentials. Agent review can help expose errors, but consequential, unresolved, or specialist questions need human judgment.
 
 ## Contribute back to the shared foundation
 

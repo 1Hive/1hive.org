@@ -4,7 +4,9 @@ description: Follow a first-contribution journey without a mouse and report a re
 contribution_status: candidate
 ---
 
-[[First contribution launchpad|← All contribution ideas]]
+[[Practice and maintenance|← Practice and maintenance]]
+
+Supporting exercise. For strategically connected work, use [[First contribution launchpad|the contribution launchpad]].
 
 **Candidate idea · Design and accessibility · First session: 45–60 minutes**
 

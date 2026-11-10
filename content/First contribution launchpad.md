@@ -1,62 +1,79 @@
 ---
-title: First contribution launchpad
-description: Eight small contribution ideas with sources, clear finish lines, and prompts for the personal agent you already use.
+title: Contribution launchpad
+description: Bring an idea, a skill, or your agent. Build infrastructure, tell the story, or produce a public good that others can build on.
 ---
 
-Make one useful thing someone else can review. You can start with a browser, a local draft, and an hour. Coding and an agent are optional.
+## Build something the commons can build on
 
-**New here?** Start with [[contributions/Explain one governance term|one clearer explanation]]. Prefer checking facts? [[contributions/Verify one infrastructure reference|Verify one infrastructure reference]]. Comfortable with code? [[contributions/Reproduce the contributor setup|Test the contributor setup]].
+1Hive's ambition is a community-owned economy for public goods. AI gives us a new way to work toward it: people contributing ideas, judgment, and compute, with agents helping turn that capacity into useful work.
 
-These are **candidate ideas**, not assigned issues, confirmed vacancies, funded bounties, or commitments from maintainers. Choose one, check whether it is still needed, and agree on scope before doing substantial work. A contribution does not automatically earn Honey, reputation, or a paid role.
+**You do not need to wait for a task assignment.** Find a real need, propose a contribution, test a bounded first version, and leave something others can inspect and reuse.
 
-## Choose a small outcome
+**[[Propose a contribution|Start a contribution concept →]]** · **[[Why now|Why this matters now]]** · **[[Knowledge commons|Explore the knowledge commons]]**
 
-The time ranges below are suggested first-session limits, not delivery estimates. Stop with useful evidence if the work grows beyond them.
+The three lanes below are a direction for discussion and contribution. They are not an adopted DAO roadmap, funded bounty board, or claim that the proposed services already exist.
 
-### Explain and research
+## 1. Build the core infrastructure
 
-- **[[contributions/Explain one governance term|Explain one governance term]]** · Writing · 30–60 minutes. Add one source-backed definition where a newcomer first needs it.
-- **[[contributions/Verify one infrastructure reference|Verify one infrastructure reference]]** · Research · 45–90 minutes. Check one documented destination and record what it does and does not establish.
-- **[[contributions/Prepare a bounded public digest|Prepare a bounded public digest]]** · Research and writing · 60–90 minutes. Turn one week of public activity into a short, source-linked briefing.
+Make it easier for people and agents to understand Honey, coordinate contributions, govern shared resources, and review each other's work.
 
-### Test and review
+**Possible outputs:** a read-only Honey tool, an agent-readable context pack, a portable skill, tested documentation, a governance research note, or an improvement to the proposal workflow.
 
-- **[[contributions/Test the keyboard contribution path|Test the keyboard contribution path]]** · Design and accessibility · 45–60 minutes. Follow the route from the homepage to a usable task without a mouse.
-- **[[contributions/Review one proposed website change|Review one proposed website change]]** · Review · 45–90 minutes. Check one part of an existing change and return evidence the author can use.
-- **[[contributions/Test five newcomer searches|Test five newcomer searches]]** · Content and usability · 30–60 minutes. Find out whether common questions lead to the right wiki page.
+[[pathways/Core infrastructure|Explore core infrastructure →]]
 
-### Build and improve workflows
+## 2. Make the work legible
 
-- **[[contributions/Reproduce the contributor setup|Reproduce the contributor setup]]** · Development · 60–90 minutes. Run the documented setup from a clean checkout and make any failure reproducible.
-- **[[contributions/Try the wiki improvement workflow|Try the wiki improvement workflow]]** · Agent-assisted documentation · 45–90 minutes. Use one shared skill on one real passage and check the result yourself.
+Help people understand what 1Hive is trying to build, why it matters, and how to participate. Connect the narrative to real work and evidence.
 
-## Before you start
+**Possible outputs:** an explanatory essay, a source-backed research digest, a dashboard, a visual guide, a case study, or a social campaign grounded in a useful public artifact.
 
-1. **Pick a brief and a limit.** Read its sources and finish line. You do not need to complete all eight.
-2. **Check current work.** Read the latest [issues](https://github.com/1Hive/1hive.org/issues), [pull requests](https://github.com/1Hive/1hive.org/pulls), and any relevant [Forum discussion](https://forum.1hive.org). Help an existing effort rather than duplicating it. Read-only research and private drafts are a good starting point; posting or claiming work is a separate action.
-3. **Choose the right version.** These briefs were prepared against [website commit 654576b](https://github.com/1Hive/1hive.org/tree/654576bdb2705d3c3de77796e1707150c43df400) on 10 November 2026. That version was in [draft PR #1](https://github.com/1Hive/1hive.org/pull/1), not merged or deployed, when checked. Verify the latest branch and page before assuming the same gap still exists.
-4. **Keep authority clear.** Read the [contribution guide](https://1hive.org/CONTRIBUTING.md) and [Code of Conduct](https://1hive.org/CODE_OF_CONDUCT.md). No task here requires a wallet connection, token transfer, vote, account registration, or model credentials.
+[[pathways/Communications and narrative|Explore communications and narrative →]]
 
-The repository issue search returned no issues when these briefs were prepared, and PR #1 was the only pull request returned. This is a dated discovery note, not proof that nobody is working on a topic. Current ownership and community demand still need checking.
+## 3. Produce tangible public goods
 
-## Work with your agent
+Use available, voluntarily contributed compute to answer a bounded question or create an open resource. Establish a useful baseline, get it reviewed, and make the case for additional funding only when scaling would produce demonstrable value.
 
-Each brief includes a copyable starting prompt. Review it, set the scope you want, and use the personal agent you already have. The prompt asks for evidence and a private result first. It does not grant permission to publish, spend money, start a paid session, or act in community governance.
+**Possible outputs:** reproducible research, an agent-reviewed paper with human oversight, a curated dataset, a reinforcement-learning environment, an open training recipe, or model weights that can lawfully be shared.
 
-When reviewing an unpublished preview, use the matching repository files or replace the site address in a prompt with the preview address. Links to raw guides and skills below use the live site, which may contain a different version. The [reviewed repository snapshot](https://github.com/1Hive/1hive.org/tree/654576bdb2705d3c3de77796e1707150c43df400) provides the source version used for these briefs.
+[[pathways/Tangible public goods|Explore tangible public goods →]]
 
-If you prefer to work directly, follow the same brief without the prompt. See [[Participate with your agent]] for the shared instructions and reusable skills.
+## Bring your own idea
 
-## Return something reviewable
+Start with one sentence:
 
-Keep your handoff short:
+> I want to help **[people]** do **[something that matters]** by creating **[a reusable public result]**. It belongs in 1Hive because **[the connection to Honey, contributor capacity, or the commons]**. The smallest useful experiment is **[an observable result]**.
 
-- The problem, the intended reader, and the specific result.
-- The exact page, branch or commit checked, source links, and the date.
-- Your draft, patch, reproduction steps, or before-and-after evidence.
-- Checks that passed, failed, or could not run, plus any remaining questions.
-- Any agent assistance and what you personally verified.
+[[Propose a contribution]] helps you check the evidence and existing work, compare alternatives, and choose a first experiment. A concept can lead to research, a prototype, a focused patch, or a longer-lived improvement proposal.
 
-For local website edits, follow the repository checks: `npm run check`, `npm test`, `npm run build`, and `npm run check:site`. Inspect visible changes on desktop and mobile. A research-only brief can end with a source-linked note; do not invent code changes just to submit something.
+Small is a scope choice, not a purpose. A narrow experiment should answer a meaningful question or leave an artifact worth reusing. Tokens consumed, pages generated, and agent runs completed are not measures of public value.
 
-Return the result privately first. When you decide to share, GitHub is the home for maintained website work and the Forum is useful for longer public reasoning. A small fix can use the normal review path; [[Improvement proposals|a separate improvement proposal]] is optional unless the change needs a durable plan. Maintainers decide what is merged, and funding follows its own [[Curating community contributions|community process]].
+## Give your agent a starting point
+
+Use your own agent and keep control of its accounts and actions. For an unpublished preview, provide the matching repository files or preview address because live-site instructions may differ.
+
+```text
+Read https://1hive.org/AGENTS.md and the contribution launchpad.
+Use the shape-contribution skill. My interests are [interests],
+my available effort or compute is [limit], and I want to help [goal].
+Explore core infrastructure, communications, or tangible public goods.
+Check primary sources and existing work. Compare up to three useful
+contributions, then recommend one with a clear beneficiary, a reason
+it belongs in 1Hive, a reusable output, and a bounded first experiment.
+Return a private concept with sources, unknowns, review needs, resource
+limits, and what evidence would justify continuing or seeking funding.
+If evidence is weak, return a research question instead of inventing demand.
+Do not publish, contact people, claim work, start paid sessions,
+spend, sign, vote, or transact without my authorization.
+```
+
+[Read the shape-contribution skill](https://1hive.org/skills/shape-contribution/SKILL.md). The same process works without an agent.
+
+## Turn one contribution into shared capacity
+
+**Find a need → shape a concept → test a first result → get review → return knowledge to the commons.**
+
+Record what worked, what failed, who could reuse the result, and what it takes to maintain it. A useful negative result can save the next contributor from repeating an unproductive approach. The [[Knowledge commons|knowledge-commons direction]] explores how to make that accumulated work easier to retrieve and build on.
+
+Use [[Improvement proposals]] when a change needs a durable plan or decision. On-chain improvements need research before formal protocol proposals. Funding, recognition, and governance authority remain separate from submitting or merging work.
+
+For learning repository mechanics or supporting an identified improvement, the [[Practice and maintenance|practice and maintenance exercises]] remain available. They support these larger purposes rather than define the roadmap.

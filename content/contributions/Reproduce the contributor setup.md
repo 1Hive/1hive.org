@@ -4,7 +4,9 @@ description: Verify that the documented development path works in a clean enviro
 contribution_status: candidate
 ---
 
-[[First contribution launchpad|← All contribution ideas]]
+[[Practice and maintenance|← Practice and maintenance]]
+
+Supporting exercise. For strategically connected work, use [[First contribution launchpad|the contribution launchpad]].
 
 **Candidate idea · Development · First session: 60–90 minutes**
 

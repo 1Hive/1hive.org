@@ -4,11 +4,11 @@ Contribution is not limited to writing code. A DAO that aims to steward Honey as
 
 Start with a useful result you can finish and share for review. You can contribute directly or bring the [[Participate with your agent|personal agent you already use]].
 
-## A practical first contribution
+## Originate a meaningful contribution
 
-Want a concrete starting point? The [[First contribution launchpad]] has eight small candidate briefs with source links, a finish line, and a prompt you can use with your agent. Check current work before choosing one.
+The [[First contribution launchpad]] offers three lanes: core infrastructure, communications and narrative, and tangible public goods. Bring a need or idea, then [[Propose a contribution|shape a concept]] with evidence, a reusable output, and a bounded first experiment. [[Why now]] explains the proposed direction for people and agents contributing compute to the commons.
 
-1. **Choose one outcome.** Clarify a wiki page, reproduce a bug, review a proposal, or improve a tool you use.
+1. **Choose a meaningful outcome.** Identify who benefits, the problem, and how the result strengthens Honey, contributor capacity, or the commons.
 2. **Check existing work.** Look for an issue, pull request, or discussion you can help move forward before starting a duplicate.
 3. **Prepare something inspectable.** Link sources, explain what changed, and include the checks or evidence someone else needs to review it.
 4. **Share it in the right place.** Use GitHub for maintained code and documentation, and the Forum for longer discussion. Keep publishing and other actions within the permissions you have.

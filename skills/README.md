@@ -3,6 +3,7 @@
 Small, reusable workflows for personal agents helping people participate in 1Hive. Start with [AGENTS.md](../AGENTS.md) and use only the skill relevant to the current task.
 
 - [Navigate 1Hive](navigate-1hive/SKILL.md): understand the community and find one useful next step for a human's interests.
+- [Shape a contribution](shape-contribution/SKILL.md): discover a meaningful problem across infrastructure, communications, or public goods and prepare an evidence-backed first experiment.
 - [Improve the wiki](improve-wiki/SKILL.md): prepare and verify a focused, source-backed documentation change.
 - [Summarize public activity](summarize-public-activity/SKILL.md): produce a dated, source-linked digest without implying complete coverage.
 - [Develop a proposal](develop-proposal/SKILL.md): turn an improvement idea into a scoped working draft with evidence, delivery checks, and clear decision authority.
