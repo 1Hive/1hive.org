@@ -5,6 +5,7 @@ import path from "node:path"
 import test from "node:test"
 import type { BuildCtx } from "../../util/ctx"
 import { AgentResources, agentResources } from "./agentResources"
+import { readProposals, renderIndex } from "../../../scripts/proposals"
 
 test("agent resources emit the exact allowlisted source files and refresh on a partial build", async (t) => {
   const output = await mkdtemp(path.join(os.tmpdir(), "1hive-agent-resources-"))
@@ -53,9 +54,11 @@ test("every skill has metadata and is listed for publication and discovery", asy
 
 test("proposal documents are explicitly published, indexed, and distinguish drafts from decisions", async () => {
   const index = await readFile("proposals/README.md", "utf8")
+  const proposals = await readProposals()
+  const browserIndex = renderIndex(proposals)
   const template = await readFile("proposals/TEMPLATE.md", "utf8")
   assert.match(index, /Process status: working draft/)
-  assert.match(template, /\*\*Status:\*\* Working draft/)
+  assert.match(template, /^stage: working-draft$/m)
   for (const section of [
     "Current state and evidence",
     "Proposed change",
@@ -74,12 +77,15 @@ test("proposal documents are explicitly published, indexed, and distinguish draf
       `${file} is not published`,
     )
     if (entry.name === "README.md") continue
-    assert(index.includes(`](${entry.name})`), `${file} is not indexed`)
-    if (entry.name === "TEMPLATE.md") continue
+    if (entry.name === "TEMPLATE.md") {
+      assert(index.includes(`](${entry.name})`), `${file} is not discoverable`)
+      continue
+    }
     const proposal = await readFile(file, "utf8")
-    assert.match(
-      proposal,
-      /\*\*Status:\*\* (Working draft|In review|Accepted|Implemented|Deferred|Withdrawn|Superseded)\n/,
+    assert(browserIndex.includes(file.slice(0, -3)), `${file} is not indexed`)
+    assert(
+      proposals.some((p) => p.file === file),
+      `${file} has not been validated`,
     )
     assert.match(proposal, /^## Decision and authority$/m)
     assert.match(proposal, /^## Progress and outcome$/m)

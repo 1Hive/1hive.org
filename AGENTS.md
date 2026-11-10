@@ -36,7 +36,8 @@ Check existing issues, pull requests, and discussions before starting work. Avoi
 - `content/`: human-readable wiki pages in Markdown. Use existing `[[Page name]]` links.
 - `quartz/plugins/emitters/landingPage.ts`: the custom homepage. Editing `content/index.md` alone does not change its visible layout.
 - `skills/`: small, provider-neutral Markdown workflows. Each skill has a `SKILL.md` with a name and description.
-- `proposals/`: a working-draft process, index, and template for improvements that need a durable plan. A separate proposal is optional for small, reversible changes. This directory does not establish DAO-wide policy or authorize protocol or funding actions.
+- `proposals/`: source records, a working-draft process, and template for improvements that need a durable plan. A separate proposal is optional for small, reversible changes. This directory does not establish DAO-wide policy or authorize protocol or funding actions.
+- `scripts/proposals.ts`: validates proposal metadata and generates `content/proposals/` for the wiki. Document stage is separate from decision, funding, and delivery status. Do not edit generated pages.
 - `quartz/plugins/emitters/agentResources.ts`: explicit list of source documents published as raw Markdown. Keep it in sync when adding a skill or proposal. Do not publish arbitrary repository files.
 - `quartz.config.ts` and `quartz.layout.ts`: site configuration and wiki layout.
 - `.github/workflows/validate.yml`: pull-request checks, without deployment credentials.

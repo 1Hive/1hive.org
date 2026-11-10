@@ -1,13 +1,27 @@
-# [A concrete improvement]
+---
+id: unassigned
+title: A concrete improvement
+summary: Describe the smallest useful outcome in one sentence.
+stage: working-draft
+scope: Describe the affected website, documentation, workflow, or research.
+owner: Unassigned
+created: "YYYY-MM-DD"
+updated: "YYYY-MM-DD"
+decision:
+  status: pending
+  authority: Unassigned
+  evidence: []
+funding:
+  status: not-requested
+  evidence: []
+delivery:
+  status: not-started
+  evidence: []
+---
 
-- **ID:** Unassigned
-- **Status:** Working draft
-- **Scope:** [Website / documentation / contributor workflow / research / other]
-- **Author or contact:** [Public contributor identity, if appropriate]
-- **Delivery owner:** [Who has agreed to do the work, or unassigned]
-- **Created:** [YYYY-MM-DD]
-- **Updated:** [YYYY-MM-DD]
-- **Discussion and implementation:** [Links, or not yet opened]
+# A concrete improvement
+
+Replace the title, summary, scope, and dates above. Use `not-recorded` for funding or delivery if the current state is unknown. Keep document maturity separate from decisions, funding, and implementation. See [the metadata guide](README.md#metadata-and-validation) for allowed values and evidence requirements. The template itself is not listed as a proposal.
 
 This is a working draft. It does not establish community policy, approve funding, or authorize transactions. Replace the prompts below with the detail this change needs; keep it short when the change is small.
 
@@ -37,7 +51,7 @@ Who can authorize this change, and under which existing process? What feedback i
 
 ## Progress and outcome
 
-Link work, checks, decisions, and results as they happen. Record the date, decision maker or mechanism, scope, and evidence before marking a proposal accepted or implemented. If deferred, withdrawn, or superseded, explain why and link any replacement.
+Link work, checks, decisions, and results as they happen. Record the date, decision maker or mechanism, scope, and evidence before changing the decision, funding, or delivery record. If deferred, withdrawn, or superseded, explain why and link any replacement.
 
 ## Agent assistance, if any
 

@@ -1,12 +1,25 @@
-# A lightweight improvement process
+---
+id: "0001"
+title: A lightweight improvement process
+summary: Keep a durable proposal record when useful, while letting small improvements follow normal review.
+stage: working-draft
+scope: Website, documentation, and repository contribution workflows
+owner: Unassigned
+created: "2026-11-10"
+updated: "2026-11-10"
+decision:
+  status: pending
+  authority: Site and repository maintainers within their remit; other systems use their own process
+  evidence: []
+funding:
+  status: not-requested
+  evidence: []
+delivery:
+  status: not-started
+  evidence: []
+---
 
-- **ID:** 0001
-- **Status:** Working draft
-- **Scope:** Website, documentation, and repository contribution workflows
-- **Delivery owner:** Unassigned
-- **Created:** 2026-11-10
-- **Updated:** 2026-11-10
-- **Decision:** Pending; no DAO-wide adoption claimed
+# A lightweight improvement process
 
 ## Outcome
 
@@ -31,15 +44,18 @@ Seek feedback from people affected by a change and contributors who can help del
 
 Decisions remain with the people or processes that already have authority over the affected system. A maintainer may authorize a website change within their remit. That decision does not establish DAO-wide policy or authorize spending shared funds.
 
-## Suggested proposal states
+## Record document maturity separately
+
+The proposal browser groups documents by maturity, not by approval or funding:
 
 - **Working draft:** The problem and approach are being developed. Open questions are expected.
-- **In review:** The author has identified the decision needed and the people or process responsible. Feedback and checks are underway.
-- **Accepted:** The appropriate decision maker or mechanism has approved a defined scope. Record the decision, date, and evidence. Acceptance is not proof of delivery.
-- **Implemented:** The accepted scope has been delivered and checked. Link the work, checks, and outcome. Distinguish a merged change from a live deployment.
-- **Deferred, withdrawn, or superseded:** Explain what changed and link any replacement. Preserve the record.
+- **In review:** The document is ready for feedback from the people affected.
+- **Stable:** The document is maintained as a settled reference. This does not mean its recommendations were accepted.
+- **Archived:** The document is no longer being developed. Explain why and link any replacement.
 
-Moving a draft into the repository makes it available for review. Merging it does not itself adopt its recommendations. Update the [index](README.md) when the recorded status changes.
+Keep the decision record separate: pending, accepted, declined, deferred, withdrawn, or superseded. A decision should identify its authority, date, scope, and source evidence. Funding and delivery have their own records, too. An accepted proposal can be unfunded and unfinished; a document can be stable while its decision remains pending.
+
+Moving a draft into the repository makes it available for review. Merging it does not itself adopt its recommendations. Update the frontmatter in this file when a record changes; the wiki page and stage index are generated from it.
 
 ## Delivery plan
 

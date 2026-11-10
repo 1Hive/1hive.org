@@ -15,13 +15,15 @@ Use a proposal when a change spans several contributions, introduces a new proce
 
 ## Read or prepare a proposal
 
-- [Proposal index](https://1hive.org/proposals/README.md): find existing drafts and their recorded status.
-- [A lightweight improvement process](https://1hive.org/proposals/0001-improvement-process.md): the working draft describing the suggested workflow.
+- [[proposals/index|Browse proposals by stage]]: find drafts and read their separate decision, funding, and delivery records.
+- [[proposals/0001-improvement-process|A lightweight improvement process]]: the working draft describing the suggested workflow.
 - [Proposal template](https://1hive.org/proposals/TEMPLATE.md): copy it and describe the outcome, evidence, delivery plan, checks, and decision needed.
 
-The Markdown source lives in the website repository so proposals can be reviewed alongside implementation. Check existing issues and pull requests before starting, and keep the index and proposal status in sync.
+The Markdown source lives in the website repository so proposals can be reviewed alongside implementation. Check existing issues and pull requests before starting. Each proposal is maintained once in Markdown; its wiki page and the stage index are generated from that source.
 
 ## Keep decisions and delivery clear
+
+Document stages describe the writing: working draft, in review, stable, or archived. A stable document can still have a pending decision. Funding and delivery are recorded separately.
 
 A published draft is an invitation to review. It is not evidence of acceptance. An accepted proposal should link the actual decision and say who or which process authorized it. An implemented proposal should link the delivered work and checks, and say whether it has been deployed.
 
