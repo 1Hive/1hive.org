@@ -394,6 +394,7 @@ const landingHtml = `<!DOCTYPE html>
         </a>
         <nav class="nav-links" aria-label="Primary navigation">
           <a href="/wiki">Wiki</a>
+          <a href="/How-you-can-contribute">Contribute</a>
           <a href="/Join-the-community">Community</a>
           <a href="/Participate-with-your-agent">Bring your agent</a>
           <a href="/Navigating-core-community-infrastructure">Infrastructure</a>
@@ -404,11 +405,11 @@ const landingHtml = `<!DOCTYPE html>
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
           <h1 id="hero-title">Public goods for humanity.</h1>
-          <p class="support">1Hive is a global community building shared infrastructure for the commons. Honey helps us coordinate resources, recognize contributors, and sustain useful work.</p>
+          <p class="support">1Hive is building a community-owned economy for public goods. We coordinate around Honey, open infrastructure, and useful work people can inspect and improve. Start with one contribution, on your own or with your personal agent.</p>
           <div class="actions">
-            <a class="button primary" href="/wiki">Explore the wiki</a>
-            <a class="button" href="/Why-Honey">How Honey helps</a>
-            <a class="button" href="https://discord.gg/1hive">Join Discord</a>
+            <a class="button primary" href="/How-you-can-contribute">Find your first contribution</a>
+            <a class="button" href="/Participate-with-your-agent">Bring your agent</a>
+            <a class="button" href="/wiki">Explore the wiki</a>
           </div>
         </div>
         <div class="hero-mark" aria-hidden="true">
@@ -422,11 +423,12 @@ const landingHtml = `<!DOCTYPE html>
           <h2 id="start-title">Help build the commons.</h2>
         </div>
         <nav class="link-list" aria-label="Wiki starting points">
-          <a href="/Our-mission-and-values"><span>01</span><strong>Mission and values</strong><em>Read the principles behind our public goods work.</em></a>
-          <a href="/Why-Honey"><span>02</span><strong>Why Honey?</strong><em>Learn how Honey coordinates shared resources.</em></a>
-          <a href="/How-you-can-contribute"><span>03</span><strong>Contribute</strong><em>Write, build, curate, support, or bring a useful project.</em></a>
-          <a href="/Curating-community-contributions"><span>04</span><strong>Curate contributions</strong><em>Help direct attention and resources toward public goods.</em></a>
-          <a href="/Participate-with-your-agent"><span>05</span><strong>Participate with your agent</strong><em>Bring your existing agent to learn, prepare, and contribute.</em></a>
+          <a href="/Our-mission-and-values"><span>01</span><strong>Mission and values</strong><em>Understand the principles and ambitions behind the work.</em></a>
+          <a href="/Why-Honey"><span>02</span><strong>Why Honey?</strong><em>Explore Honey's role in a public goods economy.</em></a>
+          <a href="/How-you-can-contribute"><span>03</span><strong>Make a contribution</strong><em>Choose a small outcome, prepare it, and get it reviewed.</em></a>
+          <a href="/Participate-with-your-agent"><span>04</span><strong>Bring your agent</strong><em>Use your existing agent, shared instructions, and reusable skills.</em></a>
+          <a href="/Improvement-proposals"><span>05</span><strong>Plan an improvement</strong><em>A working-draft process and template for changes that need a plan.</em></a>
+          <a href="/Curating-community-contributions"><span>06</span><strong>Curate useful work</strong><em>Evaluate contributions and check the relevant funding process.</em></a>
         </nav>
       </section>
 
@@ -434,14 +436,14 @@ const landingHtml = `<!DOCTYPE html>
         <div class="infra-copy">
           <p class="kicker">Core infrastructure</p>
           <h2 id="infra-title">The stack for shared resources.</h2>
-          <p>1Hive uses governance, dispute resolution, discussion spaces, and open-source tools to move Honey toward public goods without relying on a central operator.</p>
+          <p>Explore the governance deployments, discussion spaces, and open-source tools documented by 1Hive. Check current rules, activity, and funding at the source before relying on them.</p>
           <p><a class="button primary" href="/Navigating-core-community-infrastructure">See the full map</a></p>
         </div>
         <nav class="infra-links" aria-label="Core infrastructure links">
-          <a href="https://gardens.1hive.org/#/xdai/garden/0x8ccbeab14b5ac4a431fffc39f4bec4089020a155"><strong>Gardens v1</strong><span>Common Pool proposals and major Honey governance.</span></a>
-          <a href="https://app.gardens.fund/gardens/100/0x71850b7e9ee3f13ab46d67167341e4bdc905eef9/0xe2396fe2169ca026962971d3b2e373ba925b6257"><strong>Gardens v2</strong><span>Focused pools for rewards, liquidity, citizenship, and council signals.</span></a>
-          <a href="https://celeste.1hive.org/#/dashboard"><strong>Celeste</strong><span>Dispute resolution and rule enforcement for governance actions.</span></a>
-          <a href="/Navigating-core-community-infrastructure"><strong>Infrastructure map</strong><span>Canonical links and guidance for using the 1Hive stack.</span></a>
+          <a href="https://gardens.1hive.org/#/xdai/garden/0x8ccbeab14b5ac4a431fffc39f4bec4089020a155"><strong>Gardens v1</strong><span>The documented Common Pool governance deployment.</span></a>
+          <a href="https://app.gardens.fund/gardens/100/0x71850b7e9ee3f13ab46d67167341e4bdc905eef9/0xe2396fe2169ca026962971d3b2e373ba925b6257"><strong>Gardens v2</strong><span>References for modular signaling and allocation experiments.</span></a>
+          <a href="https://celeste.1hive.org/#/dashboard"><strong>Celeste</strong><span>The dispute-resolution system documented for 1Hive governance.</span></a>
+          <a href="/Navigating-core-community-infrastructure"><strong>Infrastructure map</strong><span>Find sources and learn what to verify before taking action.</span></a>
         </nav>
       </section>
 

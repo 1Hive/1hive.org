@@ -4,7 +4,7 @@ import type { BuildCtx } from "../../util/ctx"
 import type { FullSlug } from "../../util/path"
 import { write } from "./helpers"
 
-// Publish only reviewed, public agent documents. Never copy the repository wholesale.
+// Publish only reviewed, public contribution documents. Never copy the repository wholesale.
 // These are the same source files agents read in a checkout, so there is no second copy to maintain.
 export const agentResources = [
   "AGENTS.md",
@@ -14,6 +14,9 @@ export const agentResources = [
   "skills/navigate-1hive/SKILL.md",
   "skills/improve-wiki/SKILL.md",
   "skills/summarize-public-activity/SKILL.md",
+  "proposals/README.md",
+  "proposals/TEMPLATE.md",
+  "proposals/0001-improvement-process.md",
 ] as const
 
 async function* emitAgentResources(ctx: BuildCtx) {

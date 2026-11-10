@@ -22,6 +22,7 @@ test("agent resources emit the exact allowlisted source files and refresh on a p
     "AGENTS.md",
     "CODE_OF_CONDUCT.md",
     "CONTRIBUTING.md",
+    "proposals",
     "skills",
   ])
   await writeFile(path.join(output, "AGENTS.md"), "stale content")
@@ -47,5 +48,40 @@ test("every skill has metadata and is listed for publication and discovery", asy
     for (const section of ["When to use", "Inputs", "Workflow", "Return", "Boundaries"]) {
       assert(text.includes(`## ${section}`), `${file} is missing ${section}`)
     }
+  }
+})
+
+test("proposal documents are explicitly published, indexed, and distinguish drafts from decisions", async () => {
+  const index = await readFile("proposals/README.md", "utf8")
+  const template = await readFile("proposals/TEMPLATE.md", "utf8")
+  assert.match(index, /Process status: working draft/)
+  assert.match(template, /\*\*Status:\*\* Working draft/)
+  for (const section of [
+    "Current state and evidence",
+    "Proposed change",
+    "Delivery plan",
+    "Validation and risks",
+    "Decision and authority",
+    "Progress and outcome",
+  ]) {
+    assert(template.includes(`## ${section}`), `Proposal template is missing ${section}`)
+  }
+  for (const entry of await readdir("proposals", { withFileTypes: true })) {
+    if (!entry.isFile() || !entry.name.endsWith(".md")) continue
+    const file = `proposals/${entry.name}`
+    assert(
+      agentResources.some((resource) => resource === file),
+      `${file} is not published`,
+    )
+    if (entry.name === "README.md") continue
+    assert(index.includes(`](${entry.name})`), `${file} is not indexed`)
+    if (entry.name === "TEMPLATE.md") continue
+    const proposal = await readFile(file, "utf8")
+    assert.match(
+      proposal,
+      /\*\*Status:\*\* (Working draft|In review|Accepted|Implemented|Deferred|Withdrawn|Superseded)\n/,
+    )
+    assert.match(proposal, /^## Decision and authority$/m)
+    assert.match(proposal, /^## Progress and outcome$/m)
   }
 })

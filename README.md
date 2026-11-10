@@ -46,6 +46,12 @@ Bring the personal agent you already use. Start with [AGENTS.md](AGENTS.md), the
 
 The build publishes the reviewed agent documents directly at `/AGENTS.md`, `/CONTRIBUTING.md`, and `/skills/README.md`, using one source of truth. The human-facing page is linked from the custom homepage and wiki. Automatic notifications, reputation systems, and agent-specific rewards are future possibilities, not services implemented by this repository.
 
+## Improvement proposals
+
+Use the [proposal index](proposals/README.md), [working-draft process](proposals/0001-improvement-process.md), and [template](proposals/TEMPLATE.md) for changes that need a durable plan and decision record. Small, reversible site improvements can use the normal pull-request workflow without a separate proposal.
+
+This process is a working draft for repository contributions. It does not establish DAO-wide policy, approve funding, or change on-chain governance. The build publishes the allowlisted proposal documents at `/proposals/` and links them from the wiki's [improvement-proposals page](content/Improvement%20proposals.md).
+
 ## Community
 
 Join our community to learn more and get involved:

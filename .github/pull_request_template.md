@@ -1,6 +1,6 @@
 ## What changed and why
 
-Describe the improvement and who it helps. Link an existing issue or discussion when relevant.
+Describe the improvement and who it helps. Link an existing issue, discussion, or improvement proposal when relevant. A separate proposal is optional for small, reversible changes.
 
 ## Sources and scope
 
@@ -22,4 +22,4 @@ Describe the agent's role and what the submitting contributor verified. Do not i
 
 ## Review notes
 
-List open questions, follow-up work, or changes needing a separate community decision. Merging into `v4` triggers site deployment.
+List open questions, follow-up work, and who can authorize the change. If this includes a proposal, state its status and link any actual decision. Merging a draft does not adopt its recommendations or authorize funding or on-chain actions. Merging into `v4` triggers site deployment.

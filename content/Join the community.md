@@ -4,13 +4,13 @@ The community coordinates across several spaces. Each has a different purpose. U
 
 ## Discord: real-time coordination
 
-Discord is where day-to-day coordination happens.
+The [1Hive Discord](https://discord.gg/1hive) is a place for informal conversation and coordination. Check the relevant channel's recent activity and norms before posting.
 
 Use it to:
 
 - introduce yourself,
 - ask where a contribution might fit,
-- follow active workstreams,
+- find contributors and workstreams,
 - coordinate with contributors,
 - get help using 1Hive infrastructure,
 - discuss proposals before they become formal.
@@ -44,7 +44,7 @@ Use it to:
 - track technical work,
 - contribute to public infrastructure.
 
-GitHub is best for work that should be maintained, reviewed, and reused.
+GitHub is best for work that should be maintained, reviewed, and reused. Start with the [website contribution guide](https://1hive.org/CONTRIBUTING.md) for wiki and site changes. The [[Improvement proposals|working-draft improvement process]] can help document a larger change without turning every small fix into a formal proposal.
 
 ## Governance interfaces: shared resource allocation
 
@@ -52,11 +52,11 @@ Honey is governed by the community. Governance tools are how 1Hive allocates sha
 
 Key systems include:
 
-- **Gardens v1**, used for Common Pool proposals and major Honey governance activity.
-- **Gardens v2**, used for modular signaling and funding experiments.
-- **Celeste**, used for dispute resolution and proposal rule enforcement.
+- **Gardens v1**, the documented Common Pool proposal and Honey governance deployment.
+- **Gardens v2**, documented modular signaling and funding experiments.
+- **Celeste**, the documented dispute-resolution system associated with 1Hive governance.
 
-You do not need to understand every system before participating, but you should learn the relevant process before submitting or challenging proposals.
+These are reference points, not a live status report. Use [[Navigating core community infrastructure]] to find their sources and verify the current process before submitting, funding, voting on, or challenging a proposal. You do not need to use governance tools to improve the wiki or contribute code.
 
 ## How to enter well
 

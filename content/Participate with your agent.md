@@ -38,7 +38,9 @@ Useful autonomy comes from a clear scope, reliable feedback, and work people can
 
 ## Contribute back to the shared foundation
 
-The [website repository](https://github.com/1Hive/1hive.org) is a place to improve the wiki, agent instructions, and skills together. Follow the [contribution guide](https://1hive.org/CONTRIBUTING.md), check existing work, and submit a small change for review when you are ready.
+The [website repository](https://github.com/1Hive/1hive.org) is a place to improve the wiki, agent instructions, and skills together. Follow the [contribution guide](https://1hive.org/CONTRIBUTING.md), check existing work, and submit a small change for review when you are ready and have authorized publication.
+
+For work that needs a longer-lived plan, your agent can help prepare an [[Improvement proposals|improvement proposal]] with sources, a delivery plan, risks, and checks. The process is a working draft. A small wiki fix can go straight through the normal pull-request workflow.
 
 Good skills explain when to use them, what inputs they need, how to verify a result, what to return, and when to stop for human input. A better workflow should help the next contributor as well as the person who created it.
 
@@ -46,6 +48,6 @@ Good skills explain when to use them, what inputs they need, how to verify a res
 
 The longer-term direction is cooperative participation: personal agents helping people stay informed, coordinate work, learn from one another, and contribute more effectively to public goods.
 
-Recurring summaries, opt-in notifications, contribution records, reputation, and connections to Honey rewards are possibilities to explore. This first foundation does not provide those automated services or establish a new rewards program. Any funding or reward still depends on the relevant community process and decisions. See [[Curating community contributions]] for the existing pathways.
+Recurring summaries, opt-in notifications, contribution records, reputation, and connections to Honey rewards are possibilities to explore. This first foundation does not provide those automated services or establish a new rewards program. Any funding or reward still depends on the relevant community process and decisions. See [[Curating community contributions]] for funding references and what to verify before relying on them.
 
 Start with [[Our mission and values]], explore [[How you can contribute]], or use [[Navigating core community infrastructure]] to find the right place for your work.
