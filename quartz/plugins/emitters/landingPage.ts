@@ -394,7 +394,9 @@ const landingHtml = `<!DOCTYPE html>
         </a>
         <nav class="nav-links" aria-label="Primary navigation">
           <a href="/wiki">Wiki</a>
+          <a href="/How-you-can-contribute">Contribute</a>
           <a href="/Join-the-community">Community</a>
+          <a href="/Participate-with-your-agent">Bring your agent</a>
           <a href="/Navigating-core-community-infrastructure">Infrastructure</a>
           <a href="https://gardens.1hive.org">DAO</a>
         </nav>
@@ -403,11 +405,11 @@ const landingHtml = `<!DOCTYPE html>
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
           <h1 id="hero-title">Public goods for humanity.</h1>
-          <p class="support">1Hive is a global community building shared infrastructure for the commons. Honey helps us coordinate resources, recognize contributors, and sustain useful work.</p>
+          <p class="support">People, agents, and shared purpose. 1Hive is building a community-owned economy for public goods, with Honey at its center. Help turn ideas, judgment, and voluntarily contributed compute into useful work the world can build on.</p>
           <div class="actions">
-            <a class="button primary" href="/wiki">Explore the wiki</a>
-            <a class="button" href="/Why-Honey">How Honey helps</a>
-            <a class="button" href="https://discord.gg/1hive">Join Discord</a>
+            <a class="button primary" href="/First-contribution-launchpad">Find your contribution</a>
+            <a class="button" href="/Participate-with-your-agent">Bring your agent</a>
+            <a class="button" href="/Why-now">Why now?</a>
           </div>
         </div>
         <div class="hero-mark" aria-hidden="true">
@@ -417,14 +419,28 @@ const landingHtml = `<!DOCTYPE html>
 
       <section class="section" aria-labelledby="start-title">
         <div>
-          <p class="kicker">Start here</p>
-          <h2 id="start-title">Help build the commons.</h2>
+          <p class="kicker">Three ways to contribute</p>
+          <h2 id="start-title">Build the commons.</h2>
         </div>
-        <nav class="link-list" aria-label="Wiki starting points">
-          <a href="/Our-mission-and-values"><span>01</span><strong>Mission and values</strong><em>Read the principles behind our public goods work.</em></a>
-          <a href="/Why-Honey"><span>02</span><strong>Why Honey?</strong><em>Learn how Honey coordinates shared resources.</em></a>
-          <a href="/How-you-can-contribute"><span>03</span><strong>Contribute</strong><em>Write, build, curate, support, or bring a useful project.</em></a>
-          <a href="/Curating-community-contributions"><span>04</span><strong>Curate contributions</strong><em>Help direct attention and resources toward public goods.</em></a>
+        <nav class="link-list" aria-label="Contribution pathways">
+          <a href="/pathways/Core-infrastructure"><span>01</span><strong>Build the core</strong><em>Honey tools, agents, skills, documentation, and governance research.</em></a>
+          <a href="/pathways/Communications-and-narrative"><span>02</span><strong>Make the work legible</strong><em>Stories, explainers, and dashboards grounded in real work.</em></a>
+          <a href="/pathways/Tangible-public-goods"><span>03</span><strong>Produce public goods</strong><em>Bounded research, open data, environments, recipes, and reusable results.</em></a>
+        </nav>
+      </section>
+
+      <section class="infra" aria-labelledby="direction-title">
+        <div class="infra-copy">
+          <p class="kicker">Why now</p>
+          <h2 id="direction-title">New capacity. Shared benefit.</h2>
+          <p>AI automation could reshape livelihoods and concentrate power. It also gives people new ways to build together. Our proposed direction is to turn that capacity toward decentralized institutions and public goods for humanity.</p>
+          <p><a class="button primary" href="/Why-now">Explore the direction</a></p>
+        </div>
+        <nav class="infra-links" aria-label="Start a meaningful contribution">
+          <a href="/Propose-a-contribution"><strong>Bring your own idea</strong><span>Find a real need, check the evidence, and test a first result.</span></a>
+          <a href="/Knowledge-commons"><strong>Grow shared knowledge</strong><span>Explore a curated knowledge commons that people and agents can build on.</span></a>
+          <a href="/Why-Honey"><strong>Understand Honey</strong><span>The coordination asset at the center of 1Hive's public-goods economy.</span></a>
+          <a href="/Improvement-proposals"><strong>Plan an improvement</strong><span>A working-draft process and template for changes that need a durable plan.</span></a>
         </nav>
       </section>
 
@@ -432,14 +448,14 @@ const landingHtml = `<!DOCTYPE html>
         <div class="infra-copy">
           <p class="kicker">Core infrastructure</p>
           <h2 id="infra-title">The stack for shared resources.</h2>
-          <p>1Hive uses governance, dispute resolution, discussion spaces, and open-source tools to move Honey toward public goods without relying on a central operator.</p>
+          <p>Explore the governance deployments, discussion spaces, and open-source tools documented by 1Hive. Check current rules, activity, and funding at the source before relying on them.</p>
           <p><a class="button primary" href="/Navigating-core-community-infrastructure">See the full map</a></p>
         </div>
         <nav class="infra-links" aria-label="Core infrastructure links">
-          <a href="https://gardens.1hive.org/#/xdai/garden/0x8ccbeab14b5ac4a431fffc39f4bec4089020a155"><strong>Gardens v1</strong><span>Common Pool proposals and major Honey governance.</span></a>
-          <a href="https://app.gardens.fund/gardens/100/0x71850b7e9ee3f13ab46d67167341e4bdc905eef9/0xe2396fe2169ca026962971d3b2e373ba925b6257"><strong>Gardens v2</strong><span>Focused pools for rewards, liquidity, citizenship, and council signals.</span></a>
-          <a href="https://celeste.1hive.org/#/dashboard"><strong>Celeste</strong><span>Dispute resolution and rule enforcement for governance actions.</span></a>
-          <a href="/Navigating-core-community-infrastructure"><strong>Infrastructure map</strong><span>Canonical links and guidance for using the 1Hive stack.</span></a>
+          <a href="https://gardens.1hive.org/#/xdai/garden/0x8ccbeab14b5ac4a431fffc39f4bec4089020a155"><strong>Gardens v1</strong><span>The documented Common Pool governance deployment.</span></a>
+          <a href="https://app.gardens.fund/gardens/100/0x71850b7e9ee3f13ab46d67167341e4bdc905eef9/0xe2396fe2169ca026962971d3b2e373ba925b6257"><strong>Gardens v2</strong><span>References for modular signaling and allocation experiments.</span></a>
+          <a href="https://celeste.1hive.org/#/dashboard"><strong>Celeste</strong><span>The dispute-resolution system documented for 1Hive governance.</span></a>
+          <a href="/Navigating-core-community-infrastructure"><strong>Infrastructure map</strong><span>Find sources and learn what to verify before taking action.</span></a>
         </nav>
       </section>
 
@@ -447,8 +463,7 @@ const landingHtml = `<!DOCTYPE html>
         <span>Global community. Shared infrastructure. Public goods.</span>
         <nav aria-label="Community links">
           <a href="https://discord.gg/1hive">Discord</a>
-          <a href="https://forum.1hive.org">Forum</a>
-          <a href="https://github.com/1Hive">GitHub</a>
+          <a href="https://github.com/1Hive/1hive.org">GitHub</a>
           <a href="https://gardens.1hive.org">DAO</a>
         </nav>
       </footer>

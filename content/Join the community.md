@@ -4,47 +4,35 @@ The community coordinates across several spaces. Each has a different purpose. U
 
 ## Discord: real-time coordination
 
-Discord is where day-to-day coordination happens.
+The [1Hive Discord](https://discord.gg/1hive) is a place for informal conversation and coordination. Check the relevant channel's recent activity and norms before posting.
 
 Use it to:
 
 - introduce yourself,
 - ask where a contribution might fit,
-- follow active workstreams,
+- find contributors and workstreams,
 - coordinate with contributors,
 - get help using 1Hive infrastructure,
 - discuss proposals before they become formal.
 
-Discord is best for live conversation and quick context. Important decisions should still become legible in longer-lived places like the Forum or governance interfaces.
+Discord is best for live conversation and quick context. Important reasoning and decisions should become legible in the GitHub repository or the relevant governance records.
 
-## Forum: proposals and durable discussion
+## GitHub: proposals, discussion, and code
 
-The [1Hive Forum](https://forum.1hive.org) is where longer-form discussion belongs.
+The [1Hive website repository](https://github.com/1Hive/1hive.org) is the starting point for contribution concepts, proposal drafts, public reasoning, and improvements to the shared wiki and agent workflows. The former forum is no longer live.
 
-Use it for:
+Use [issues](https://github.com/1Hive/1hive.org/issues) to discuss a concrete need, question, or contribution idea, and [pull requests](https://github.com/1Hive/1hive.org/pulls) to propose reviewable changes. Read existing work first and follow [the contribution guide](https://1hive.org/CONTRIBUTING.md). The [[Improvement proposals|working-draft improvement process]] can help document a larger change without turning every small fix into a formal proposal.
 
-- proposal drafts,
-- funding requests,
-- governance changes,
-- project updates,
-- budget discussion,
-- postmortems and public reasoning.
+Useful public records include:
 
-If you want Honey from a shared pool, or if your work affects the direction of the DAO, make the case publicly. The Forum helps the community inspect assumptions, risks, and expected outcomes before resources move.
+- contribution concepts and proposal drafts,
+- scope, budget assumptions, and governance reasoning,
+- project updates, review evidence, and postmortems,
+- code, documentation, and reusable contributor tools.
 
-## GitHub: code and documentation
+For another project's implementation, use its own repository in the [1Hive GitHub organization](https://github.com/1Hive). Keep related reasoning linked so contributors can follow the work.
 
-The [1Hive GitHub organization](https://github.com/1Hive) hosts open-source code, documentation, and project repositories.
-
-Use it to:
-
-- review code,
-- open issues,
-- improve documentation,
-- track technical work,
-- contribute to public infrastructure.
-
-GitHub is best for work that should be maintained, reviewed, and reused.
+If you seek Honey or other shared resources, explain the case publicly and verify the applicable funding process. An issue, pull request, or repository merge does not itself approve spending or authorize governance changes.
 
 ## Governance interfaces: shared resource allocation
 
@@ -52,11 +40,11 @@ Honey is governed by the community. Governance tools are how 1Hive allocates sha
 
 Key systems include:
 
-- **Gardens v1**, used for Common Pool proposals and major Honey governance activity.
-- **Gardens v2**, used for modular signaling and funding experiments.
-- **Celeste**, used for dispute resolution and proposal rule enforcement.
+- **Gardens v1**, the documented Common Pool proposal and Honey governance deployment.
+- **Gardens v2**, documented modular signaling and funding experiments.
+- **Celeste**, the documented dispute-resolution system associated with 1Hive governance.
 
-You do not need to understand every system before participating, but you should learn the relevant process before submitting or challenging proposals.
+These are reference points, not a live status report. Use [[Navigating core community infrastructure]] to find their sources and verify the current process before submitting, funding, voting on, or challenging a proposal. You do not need to use governance tools to improve the wiki or contribute code.
 
 ## How to enter well
 

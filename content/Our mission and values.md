@@ -4,6 +4,12 @@ The goal is not simply to run a community treasury or maintain another crypto pr
 
 That is an ambitious target. It will not happen through slogans. It requires useful infrastructure, credible governance, deep liquidity, strong norms, and a culture that rewards people for building things others can use.
 
+## A new opportunity to build
+
+AI automation gives this mission a new practical opening. People can contribute ideas, judgment, and voluntarily offered compute, with agents helping produce research, tools, and other public goods. The proposed [[Why now|next chapter]] asks how that capacity could strengthen decentralized institutions for humanity rather than concentrate its benefits.
+
+The [[First contribution launchpad|three contribution lanes]] make the direction concrete: build core infrastructure, make the work legible, and produce tangible public goods. They are an invitation to experiment and contribute, not an adopted protocol or guaranteed funding program.
+
 ## What we are building
 
 1Hive exists to coordinate people and capital toward work that benefits everyone.

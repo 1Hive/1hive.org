@@ -1,0 +1,520 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-10",
+  "timezone": "UTC",
+  "activity_window": {
+    "from": "2026-11-03",
+    "through": "2026-11-10",
+    "inclusive": true
+  },
+  "prepared_against": "654576bdb2705d3c3de77796e1707150c43df400",
+  "publication_state": "Local review artifact; no site integration or public write",
+  "evidence_rules": [
+    "A fetch or crawl date is not the source publication date.",
+    "A proposal is not approval; merge is not deployment.",
+    "A missing text response is not proof an application is down.",
+    "A source can be useful historically while operational claims remain unverified.",
+    "Recheck mutable PR, branch, deployment, and funding state before acting."
+  ],
+  "sources": [
+    {
+      "id": "website",
+      "kind": "published_orientation",
+      "url": "https://1hive.org/",
+      "purpose": "Community overview and entry points",
+      "observed_state": "Readable public page",
+      "freshness": "Check page-specific source dates; homepage does not prove live operational state",
+      "not_verified": ["deployment commit", "funding availability"]
+    },
+    {
+      "id": "infrastructure",
+      "kind": "published_orientation",
+      "url": "https://1hive.org/Navigating-core-community-infrastructure",
+      "purpose": "Documented governance and coordination routes",
+      "observed_state": "Readable; displays June 26, 2026",
+      "source_date": "2026-06-26",
+      "not_verified": [
+        "current deployments",
+        "current pool configuration",
+        "complete treasury routing"
+      ]
+    },
+    {
+      "id": "curation",
+      "kind": "published_orientation",
+      "url": "https://1hive.org/Curating-community-contributions",
+      "purpose": "Contribution funding and referenced pool explanations",
+      "observed_state": "Readable; displays June 26, 2026 and labels four pools active",
+      "source_date": "2026-06-26",
+      "not_verified": ["active funding programs", "pool balances", "reward streams"]
+    },
+    {
+      "id": "public_v4",
+      "kind": "git_ref",
+      "url": "https://api.github.com/repos/1Hive/1hive.org/git/ref/heads/v4",
+      "purpose": "Public website branch state",
+      "observed_state": "Ref points to 0afd48e8a72a70a929350559ec38bd63d673c87e",
+      "not_verified": ["deployment of the ref"]
+    },
+    {
+      "id": "legacy_wiki",
+      "kind": "legacy_documentation",
+      "url": "https://wiki.1hive.org/",
+      "purpose": "Historical onboarding and terminology",
+      "observed_state": "Readable; directs new contributors to Pollen",
+      "freshness": "Latest returned 1Hive/wiki commit is October 1, 2024; individual pages may be older; GitBook synchronization not established",
+      "not_verified": ["current programs", "current bot commands"]
+    },
+    {
+      "id": "legacy_pollen",
+      "kind": "legacy_documentation",
+      "url": "https://wiki.1hive.org/getting-started/pollen",
+      "purpose": "Historical Pollen participation and reward description",
+      "observed_state": "Readable; describes weekly rewards in present tense",
+      "source_repository_last_change": "2023-01-20T06:58:06Z",
+      "source_history_url": "https://github.com/1Hive/wiki/commits/master/getting-started/pollen.md",
+      "not_verified": ["program activity", "recent payouts", "command validity"]
+    },
+    {
+      "id": "legacy_covenant",
+      "kind": "legacy_documentation",
+      "url": "https://wiki.1hive.org/community-covenant",
+      "purpose": "Historical community covenant",
+      "observed_state": "Readable; says enforcement depends on Celeste completion",
+      "source_repository_last_change": "2021-10-11T10:26:17Z",
+      "source_history_url": "https://github.com/1Hive/wiki/commit/de62de17289891161c631dacf8c7af3216e02fb8",
+      "not_verified": ["covenant configured for any current deployment"]
+    },
+    {
+      "id": "treasury_announcement",
+      "kind": "historical_primary_discussion",
+      "url": "https://forum.1hive.org/t/updates-to-1hives-treasury-process/5846",
+      "purpose": "Context and links for Gardens v2 treasury process",
+      "observed_state": "Readable post by paul dated July 8, 2025; crawl reported seven months old",
+      "source_date": "2025-07-08",
+      "not_verified": [
+        "later changes",
+        "independent approval evidence",
+        "execution",
+        "current balances"
+      ],
+      "current_access": "Inaccessible: former forum no longer live. Historical provenance only; do not use as a current participation destination."
+    },
+    {
+      "id": "gardens_v1",
+      "kind": "governance_interface",
+      "url": "https://gardens.1hive.org/#/xdai/garden/0x8ccbeab14b5ac4a431fffc39f4bec4089020a155",
+      "purpose": "Documented Honey Common Pool governance",
+      "observed_state": "Base domain fetch returned a JavaScript shell; hash route not rendered",
+      "not_verified": ["proposal state", "balance", "covenant", "execution conditions"]
+    },
+    {
+      "id": "gardens_v2",
+      "kind": "governance_interface",
+      "url": "https://app.gardens.fund/gardens/100/0x71850b7e9ee3f13ab46d67167341e4bdc905eef9/0xe2396fe2169ca026962971d3b2e373ba925b6257",
+      "purpose": "Documented 1Hive Gardens v2 community",
+      "observed_state": "No usable state in text response",
+      "not_verified": ["configuration", "funds", "activity"]
+    },
+    {
+      "id": "v2_common_pool_67",
+      "kind": "governance_interface",
+      "url": "https://app.gardens.fund/gardens/100/0x71850b7e9ee3f13ab46d67167341e4bdc905eef9/0xe2396fe2169ca026962971d3b2e373ba925b6257/67",
+      "purpose": "Common Pool linked by July 2025 treasury announcement",
+      "observed_state": "Link resolves with Common Pool title; no usable pool data",
+      "not_verified": [
+        "current currency",
+        "balance",
+        "funding stream",
+        "configuration",
+        "execution"
+      ]
+    },
+    {
+      "id": "v2_treasury_pool_66",
+      "kind": "governance_interface",
+      "url": "https://app.gardens.fund/gardens/100/0x71850b7e9ee3f13ab46d67167341e4bdc905eef9/0xe2396fe2169ca026962971d3b2e373ba925b6257/66",
+      "purpose": "Treasury Management linked by July 2025 announcement",
+      "observed_state": "Title only",
+      "not_verified": [
+        "current configuration",
+        "Council Safe execution arrangement",
+        "proposal state"
+      ]
+    },
+    {
+      "id": "celeste_app",
+      "kind": "governance_interface",
+      "url": "https://celeste.1hive.org/",
+      "purpose": "Documented dispute-resolution interface",
+      "observed_state": "JavaScript shell",
+      "not_verified": ["application health", "disputes", "juror opportunities", "integration"]
+    },
+    {
+      "id": "celeste_docs",
+      "kind": "protocol_documentation",
+      "url": "https://1hive.gitbook.io/celeste",
+      "purpose": "Celeste design and vocabulary",
+      "observed_state": "Readable; contains forward-looking integration language",
+      "not_verified": ["operational status", "deployment-specific rules"]
+    },
+    {
+      "id": "discord",
+      "kind": "coordination_entry_point",
+      "url": "https://discord.gg/1hive",
+      "purpose": "Live coordination entry point linked by website",
+      "observed_state": "Invitation link recorded; conversation contents not read",
+      "not_verified": ["current channels", "participants", "task ownership"]
+    },
+    {
+      "id": "github_org",
+      "kind": "repository_directory",
+      "url": "https://github.com/1Hive",
+      "purpose": "Discover public repositories",
+      "observed_state": "Readable directory; pinned repositories include historical projects",
+      "not_verified": ["all repositories", "all branches", "production releases"]
+    }
+  ],
+  "pull_requests": [
+    {
+      "id": "pr_1hive_org_1",
+      "kind": "pull_request",
+      "url": "https://github.com/1Hive/1hive.org/pull/1",
+      "title": "Add agent participation and proposal foundation",
+      "state": "open",
+      "draft": true,
+      "merged": false,
+      "created_at": "2026-11-10T05:39:49Z",
+      "updated_at": "2026-11-10T05:40:59Z",
+      "merged_at": null,
+      "base_branch": "v4",
+      "base_sha": "0afd48e8a72a70a929350559ec38bd63d673c87e",
+      "head_branch": "agent-participation-foundation",
+      "head_sha": "654576bdb2705d3c3de77796e1707150c43df400",
+      "not_verified": ["deployment", "independent reproduction of author-reported tests"]
+    },
+    {
+      "id": "pr_gardens-v2_975",
+      "kind": "pull_request",
+      "url": "https://github.com/1Hive/gardens-v2/pull/975",
+      "title": "Private GitHub-authenticated security advisory board",
+      "state": "closed",
+      "draft": false,
+      "merged": false,
+      "created_at": "2026-11-10T03:18:48Z",
+      "updated_at": "2026-11-10T03:34:08Z",
+      "merged_at": null,
+      "base_branch": "main",
+      "base_sha": "58d830131176a1ec7da7a32d274a80d6313f3cc3",
+      "head_branch": "feature/private-advisory-board",
+      "head_sha": "2b32c698e7acd276de83b0a4faea095f5bfd5872",
+      "not_verified": ["deployment", "independent reproduction of author-reported tests"]
+    },
+    {
+      "id": "pr_gardens-v2_972",
+      "kind": "pull_request",
+      "url": "https://github.com/1Hive/gardens-v2/pull/972",
+      "title": "Keep advisory upgrade deployable and resumable",
+      "state": "closed",
+      "draft": false,
+      "merged": true,
+      "created_at": "2026-10-30T21:52:10Z",
+      "updated_at": "2026-10-30T22:09:01Z",
+      "merged_at": "2026-10-30T22:08:59Z",
+      "base_branch": "main",
+      "base_sha": "40ec1db6d424a1dc7d6298add19b87c7fb80e4f8",
+      "head_branch": "feature/fix-factory-reupgrade-migration",
+      "head_sha": "afb7af36448ae502858b41b16d2fdf8c81d320db",
+      "not_verified": ["deployment", "independent reproduction of author-reported tests"]
+    },
+    {
+      "id": "pr_markee_51",
+      "kind": "pull_request",
+      "url": "https://github.com/1Hive/markee/pull/51",
+      "title": "fix(streaming): checkpoint accrual on beneficiary changes, skip SuperApp beneficiaries",
+      "state": "closed",
+      "draft": false,
+      "merged": true,
+      "created_at": "2026-11-09T13:39:43Z",
+      "updated_at": "2026-11-09T16:23:58Z",
+      "merged_at": "2026-11-09T16:23:54Z",
+      "base_branch": "dev",
+      "base_sha": "e8ae92982d189098da34f768c11b851e7f004509",
+      "head_branch": "fix/streaming-accrual-checkpoint",
+      "head_sha": "bb9420850714eebce0560a3664cde709ac218a6e",
+      "not_verified": ["deployment", "independent reproduction of author-reported tests"]
+    },
+    {
+      "id": "pr_markee_59",
+      "kind": "pull_request",
+      "url": "https://github.com/1Hive/markee/pull/59",
+      "title": "fix(tx): never treat an unconfirmed payment as failed",
+      "state": "open",
+      "draft": false,
+      "merged": false,
+      "created_at": "2026-11-09T14:11:15Z",
+      "updated_at": "2026-11-09T14:15:17Z",
+      "merged_at": null,
+      "base_branch": "fix/board-registry-gate",
+      "base_sha": "76372924ba0e3dbd3c793cd0560e40920f939cc9",
+      "head_branch": "fix/tx-unknown-outcome",
+      "head_sha": "1665394cbbdd1511ee1d3dc71f251c270a7b8b3e",
+      "not_verified": ["deployment", "independent reproduction of author-reported tests"]
+    },
+    {
+      "id": "pr_markee_60",
+      "kind": "pull_request",
+      "url": "https://github.com/1Hive/markee/pull/60",
+      "title": "fix(streaming): reuse board deposits and let backers reclaim them",
+      "state": "open",
+      "draft": false,
+      "merged": false,
+      "created_at": "2026-11-09T14:11:20Z",
+      "updated_at": "2026-11-09T15:12:37Z",
+      "merged_at": null,
+      "base_branch": "fix/tx-unknown-outcome",
+      "base_sha": "1665394cbbdd1511ee1d3dc71f251c270a7b8b3e",
+      "head_branch": "fix/streaming-deposit-exit",
+      "head_sha": "32ee19f53545367bfac3d6b95f77064399ab5204",
+      "not_verified": ["deployment", "independent reproduction of author-reported tests"]
+    },
+    {
+      "id": "pr_markee_61",
+      "kind": "pull_request",
+      "url": "https://github.com/1Hive/markee/pull/61",
+      "title": "fix(amounts): read decimal commas and refuse invalid amount input",
+      "state": "open",
+      "draft": false,
+      "merged": false,
+      "created_at": "2026-11-09T14:34:07Z",
+      "updated_at": "2026-11-09T14:39:08Z",
+      "merged_at": null,
+      "base_branch": "fix/streaming-deposit-exit",
+      "base_sha": "32ee19f53545367bfac3d6b95f77064399ab5204",
+      "head_branch": "fix/amount-input",
+      "head_sha": "0347c36825aca0cf201a2cec307ef10539e24489",
+      "not_verified": ["deployment", "independent reproduction of author-reported tests"]
+    },
+    {
+      "id": "pr_markee_50",
+      "kind": "pull_request",
+      "url": "https://github.com/1Hive/markee/pull/50",
+      "title": "\ud83d\ude80 Release: dev \u2192 main, with review fixes",
+      "state": "open",
+      "draft": false,
+      "merged": false,
+      "created_at": "2026-11-07T00:43:49Z",
+      "updated_at": "2026-11-07T06:27:14Z",
+      "merged_at": null,
+      "base_branch": "main",
+      "base_sha": "80f7db9ba4cc48be2817e6b952b85188b561f273",
+      "head_branch": "fix/review-48",
+      "head_sha": "967eee4f4508f59d61340d7a75cd68ac734271c5",
+      "not_verified": ["deployment", "independent reproduction of author-reported tests"]
+    }
+  ],
+  "repository_history": [
+    {
+      "repository": "1Hive/1hive.org",
+      "query_method": "Empty commit query with repository selector; latest returned default-branch history, not all-branch activity",
+      "commits": [
+        {
+          "sha": "0afd48e8a72a70a929350559ec38bd63d673c87e",
+          "url": "https://github.com/1Hive/1hive.org/commit/0afd48e8a72a70a929350559ec38bd63d673c87e",
+          "date": "2026-06-26T17:07:33Z",
+          "title": "Replace Quartz favicon with 1Hive icon"
+        },
+        {
+          "sha": "0e5b9107a54218057ec9f77add15311ce1fa3c67",
+          "url": "https://github.com/1Hive/1hive.org/commit/0e5b9107a54218057ec9f77add15311ce1fa3c67",
+          "date": "2026-06-26T03:59:56Z",
+          "title": "Redesign 1Hive landing page and wiki framing"
+        },
+        {
+          "sha": "28f575ff6baa40e1224aa29c14a608485a326c5e",
+          "url": "https://github.com/1Hive/1hive.org/commit/28f575ff6baa40e1224aa29c14a608485a326c5e",
+          "date": "2026-06-25T23:14:11Z",
+          "title": "Update audited transitive dependencies"
+        }
+      ],
+      "not_verified": ["deployed revision", "activity outside sampled history"]
+    },
+    {
+      "repository": "1Hive/gardens-v2",
+      "query_method": "Empty commit query with repository selector; latest returned default-branch history, not all-branch activity",
+      "commits": [
+        {
+          "sha": "58d830131176a1ec7da7a32d274a80d6313f3cc3",
+          "url": "https://github.com/1Hive/gardens-v2/commit/58d830131176a1ec7da7a32d274a80d6313f3cc3",
+          "date": "2026-10-30T22:08:58Z",
+          "title": "\ud83d\udee1\ufe0f Keep strategy upgrades deployable and migrations resumable (#972)"
+        },
+        {
+          "sha": "40ec1db6d424a1dc7d6298add19b87c7fb80e4f8",
+          "url": "https://github.com/1Hive/gardens-v2/commit/40ec1db6d424a1dc7d6298add19b87c7fb80e4f8",
+          "date": "2026-10-30T21:34:33Z",
+          "title": "Fix validated advisory batch (#971)"
+        },
+        {
+          "sha": "68cd18d8ace3cec4a5715c6d00f9a85369816033",
+          "url": "https://github.com/1Hive/gardens-v2/commit/68cd18d8ace3cec4a5715c6d00f9a85369816033",
+          "date": "2026-10-26T20:51:12Z",
+          "title": "Fix markdown source mode form blur and focus handling"
+        },
+        {
+          "sha": "6943670b7994616c8d83d25723a8c8f08f70b6d2",
+          "url": "https://github.com/1Hive/gardens-v2/commit/6943670b7994616c8d83d25723a8c8f08f70b6d2",
+          "date": "2026-10-26T20:46:45Z",
+          "title": "Fix ENS resolution render loop"
+        }
+      ],
+      "not_verified": ["deployed revision", "activity outside sampled history"]
+    },
+    {
+      "repository": "1Hive/markee",
+      "query_method": "Empty commit query with repository selector; latest returned default-branch history, not all-branch activity",
+      "commits": [
+        {
+          "sha": "80f7db9ba4cc48be2817e6b952b85188b561f273",
+          "url": "https://github.com/1Hive/markee/commit/80f7db9ba4cc48be2817e6b952b85188b561f273",
+          "date": "2026-11-06T21:52:35Z",
+          "title": "\u23ea Revert website integration modal redesign"
+        },
+        {
+          "sha": "993de263064fcf46d1b35d94c96c8d82d9eeebc9",
+          "url": "https://github.com/1Hive/markee/commit/993de263064fcf46d1b35d94c96c8d82d9eeebc9",
+          "date": "2026-11-06T19:50:18Z",
+          "title": "\u2728 Redesign website integration modal with AI and SDK tabs"
+        },
+        {
+          "sha": "f138e1bfd02de59c48e0d448807784d0677024a3",
+          "url": "https://github.com/1Hive/markee/commit/f138e1bfd02de59c48e0d448807784d0677024a3",
+          "date": "2026-11-05T06:59:25Z",
+          "title": "\u2728 Choose moderation severity with descriptive cards"
+        },
+        {
+          "sha": "b21099982fd91c94b93c09fcb5f630fc7a95fe66",
+          "url": "https://github.com/1Hive/markee/commit/b21099982fd91c94b93c09fcb5f630fc7a95fe66",
+          "date": "2026-11-05T06:54:17Z",
+          "title": "\u2728 Include selected moderation severity in website integration setup"
+        }
+      ],
+      "not_verified": ["deployed revision", "activity outside sampled history"]
+    },
+    {
+      "repository": "1Hive/quests",
+      "query_method": "Empty commit query with repository selector; latest returned default-branch history, not all-branch activity",
+      "commits": [
+        {
+          "sha": "967a323c58819b42819ebe0a61303bb7eff299e6",
+          "url": "https://github.com/1Hive/quests/commit/967a323c58819b42819ebe0a61303bb7eff299e6",
+          "date": "2026-10-31T17:30:52Z",
+          "title": "App: remove unpriced token badge marker"
+        },
+        {
+          "sha": "b43716fbc77836e90cf8e045f11c69c354706965",
+          "url": "https://github.com/1Hive/quests/commit/b43716fbc77836e90cf8e045f11c69c354706965",
+          "date": "2026-10-31T17:05:13Z",
+          "title": "App: include quests expiring after 2038"
+        },
+        {
+          "sha": "832be47eed24a4fc4a4cf310dcbb5e8dc6ef41dd",
+          "url": "https://github.com/1Hive/quests/commit/832be47eed24a4fc4a4cf310dcbb5e8dc6ef41dd",
+          "date": "2026-10-31T16:57:53Z",
+          "title": "App: show funded bounty tokens when USD pricing fails"
+        }
+      ],
+      "not_verified": ["deployed revision", "activity outside sampled history"]
+    },
+    {
+      "repository": "1Hive/honeyswap-interface",
+      "query_method": "Empty commit query with repository selector; latest returned default-branch history, not all-branch activity",
+      "commits": [
+        {
+          "sha": "11635d862c824fb3bd2bf88ba6309b67a0126aba",
+          "url": "https://github.com/1Hive/honeyswap-interface/commit/11635d862c824fb3bd2bf88ba6309b67a0126aba",
+          "date": "2026-09-16T16:39:44Z",
+          "title": "markee: update sponsored message"
+        },
+        {
+          "sha": "aa89245addfdb5ee583d78b94161565151ea8723",
+          "url": "https://github.com/1Hive/honeyswap-interface/commit/aa89245addfdb5ee583d78b94161565151ea8723",
+          "date": "2026-09-16T16:39:43Z",
+          "title": "markee: update sponsored message"
+        },
+        {
+          "sha": "ee9609fd40164983f9df22b94e00974c594d7345",
+          "url": "https://github.com/1Hive/honeyswap-interface/commit/ee9609fd40164983f9df22b94e00974c594d7345",
+          "date": "2026-09-16T16:39:31Z",
+          "title": "markee: update sponsored message"
+        }
+      ],
+      "not_verified": ["deployed revision", "activity outside sampled history"]
+    },
+    {
+      "repository": "1Hive/celeste-dashboard",
+      "query_method": "Empty commit query with repository selector; latest returned default-branch history, not all-branch activity",
+      "commits": [
+        {
+          "sha": "134682c929ebf101d6441fdeab9372cdf5527def",
+          "url": "https://github.com/1Hive/celeste-dashboard/commit/134682c929ebf101d6441fdeab9372cdf5527def",
+          "date": "2024-05-30T01:28:32Z",
+          "title": ":bug: change subgraph url"
+        }
+      ],
+      "not_verified": ["deployed revision", "activity outside sampled history"]
+    },
+    {
+      "repository": "1Hive/conviction-voting-app",
+      "query_method": "Empty commit query with repository selector; latest returned default-branch history, not all-branch activity",
+      "commits": [
+        {
+          "sha": "27df568fcf640dc3f1f96fb534c1cf3029422ac7",
+          "url": "https://github.com/1Hive/conviction-voting-app/commit/27df568fcf640dc3f1f96fb534c1cf3029422ac7",
+          "date": "2021-11-05T15:12:58Z",
+          "title": "Deploy to xDai and Rinkeby"
+        }
+      ],
+      "not_verified": ["deployed revision", "activity outside sampled history"]
+    },
+    {
+      "repository": "1Hive/dynamic-issuance-app",
+      "query_method": "Empty commit query with repository selector; latest returned default-branch history, not all-branch activity",
+      "commits": [
+        {
+          "sha": "f37d5159d82fe92f754d6ff1ff88c18a6e851cd8",
+          "url": "https://github.com/1Hive/dynamic-issuance-app/commit/f37d5159d82fe92f754d6ff1ff88c18a6e851cd8",
+          "date": "2023-04-19T17:15:41Z",
+          "title": "Merge pull request #6 from 1Hive/goerli-deployment"
+        }
+      ],
+      "not_verified": ["deployed revision", "activity outside sampled history"]
+    },
+    {
+      "repository": "1Hive/pollen",
+      "query_method": "Empty commit query with repository selector; latest returned default-branch history, not all-branch activity",
+      "commits": [
+        {
+          "sha": "a9df4b5b40f89efa3d4306a136fd2c26fa769915",
+          "url": "https://github.com/1Hive/pollen/commit/a9df4b5b40f89efa3d4306a136fd2c26fa769915",
+          "date": "2022-02-06T14:03:57Z",
+          "title": "Merge pull request #92 from 1Hive/scripts-run-feb-6"
+        }
+      ],
+      "not_verified": ["deployed revision", "activity outside sampled history"]
+    }
+  ],
+  "coverage": {
+    "recent_pr_search_limit": 30,
+    "complete_org_inventory": false,
+    "all_comments_read": false,
+    "private_sources_used": false,
+    "onchain_state_checked": false,
+    "recurring_monitor_created": false
+  },
+  "coordination_update": {
+    "date": "2026-11-10",
+    "status": "The former forum is no longer live; historical treasury citation is inaccessible and retained only for provenance.",
+    "current_entry_point": "https://github.com/1Hive/1hive.org"
+  }
+}

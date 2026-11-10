@@ -21,6 +21,7 @@ import { getStaticResourcesFromPlugins } from "./plugins"
 import { randomIdNonSecure } from "./util/random"
 import { ChangeEvent } from "./plugins/types"
 import { minimatch } from "minimatch"
+import { generateProposals } from "../scripts/proposals"
 
 type ContentMap = Map<
   FilePath,
@@ -71,7 +72,15 @@ async function buildQuartz(argv: Argv, mut: Mutex, clientRefresh: () => void) {
   console.log(`Cleaned output directory \`${output}\` in ${perf.timeSince("clean")}`)
 
   perf.addEvent("glob")
-  const allFiles = await glob("**/*.*", argv.directory, cfg.configuration.ignorePatterns)
+  // Proposal pages use the normal parser, search index, layout, and navigation.
+  // Include only these validated generated paths, without relaxing gitignore for other files.
+  const proposalFiles = await generateProposals(process.cwd(), undefined, argv.directory)
+  const allFiles = [
+    ...new Set([
+      ...(await glob("**/*.*", argv.directory, cfg.configuration.ignorePatterns)),
+      ...(proposalFiles as FilePath[]),
+    ]),
+  ]
   const markdownPaths = allFiles.filter((fp) => fp.endsWith(".md")).sort()
   console.log(
     `Found ${markdownPaths.length} input files from \`${argv.directory}\` in ${perf.timeSince("glob")}`,

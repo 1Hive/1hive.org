@@ -15,9 +15,12 @@
     "quartz": "./quartz/bootstrap-cli.mjs",
     "build": "./quartz/bootstrap-cli.mjs build",
     "serve": "./quartz/bootstrap-cli.mjs build --serve",
-    "check": "tsc --noEmit && npx prettier . --check",
+    "check": "npm run check:proposals && tsc --noEmit && npx prettier . --check",
+    "generate:proposals": "node --import tsx scripts/generate-proposals.ts",
+    "check:proposals": "node --import tsx scripts/generate-proposals.ts --check",
+    "check:site": "node --import tsx scripts/check-site.ts",
     "format": "npx prettier . --write",
-    "test": "tsx --test"
+    "test": "node --import tsx --test \"quartz/**/*.test.ts\" \"scripts/**/*.test.ts\""
   },
   "engines": {
     "npm": ">=10.9.2",

@@ -9,9 +9,8 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       Discord: "https://discord.com/invite/D6pZzxU",
-      Forum: "https://forum.1hive.org",
       DAO: "https://gardens.1hive.org",
-      GitHub: "https://github.com/1Hive",
+      GitHub: "https://github.com/1Hive/1hive.org",
     },
   }),
 }
