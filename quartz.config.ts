@@ -80,6 +80,7 @@ const config: QuartzConfig = {
       Plugin.ComponentResources(),
       Plugin.ContentPage(),
       Plugin.LandingPage(),
+      Plugin.AgentResources(),
       Plugin.FolderPage(),
       Plugin.TagPage(),
       Plugin.ContentIndex({

@@ -1,5 +1,6 @@
 export { ContentPage } from "./contentPage"
 export { LandingPage } from "./landingPage"
+export { AgentResources } from "./agentResources"
 export { TagPage } from "./tagPage"
 export { FolderPage } from "./folderPage"
 export { ContentIndex as ContentIndex } from "./contentIndex"

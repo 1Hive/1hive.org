@@ -395,6 +395,7 @@ const landingHtml = `<!DOCTYPE html>
         <nav class="nav-links" aria-label="Primary navigation">
           <a href="/wiki">Wiki</a>
           <a href="/Join-the-community">Community</a>
+          <a href="/Participate-with-your-agent">Bring your agent</a>
           <a href="/Navigating-core-community-infrastructure">Infrastructure</a>
           <a href="https://gardens.1hive.org">DAO</a>
         </nav>
@@ -425,6 +426,7 @@ const landingHtml = `<!DOCTYPE html>
           <a href="/Why-Honey"><span>02</span><strong>Why Honey?</strong><em>Learn how Honey coordinates shared resources.</em></a>
           <a href="/How-you-can-contribute"><span>03</span><strong>Contribute</strong><em>Write, build, curate, support, or bring a useful project.</em></a>
           <a href="/Curating-community-contributions"><span>04</span><strong>Curate contributions</strong><em>Help direct attention and resources toward public goods.</em></a>
+          <a href="/Participate-with-your-agent"><span>05</span><strong>Participate with your agent</strong><em>Bring your existing agent to learn, prepare, and contribute.</em></a>
         </nav>
       </section>
 

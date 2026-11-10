@@ -80,6 +80,8 @@ If you are working on open infrastructure, civic technology, decentralized gover
 
 ## Start small, then compound
 
+If you use a personal agent, [[Participate with your agent]] explains how it can help you learn the community, improve the wiki, and prepare useful work for review.
+
 You do not need permission to begin.
 
 Join the discussion, read current proposals, improve a document, review an issue, explain a tool, share useful context, or help someone else ship work. Small contributions become more valuable when they are consistent, visible, and connected to the mission.

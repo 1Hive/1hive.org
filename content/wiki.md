@@ -12,5 +12,6 @@ If you’re new to 1Hive or want to get involved, start here:
 - [[Why Honey?]] — Learn how Honey helps coordinate shared resources.
 - [[Join the community]] — Connect with other builders, stewards, and contributors.
 - [[How you can contribute]] — Explore ways to support and shape shared infrastructure.
+- [[Participate with your agent]] — Bring your existing personal agent to learn, prepare, and contribute.
 - [[Curating community contributions]] — Help direct attention and resources toward useful public goods work.
 - [[Navigating core community infrastructure]] — A guide to key tools, spaces, and processes.

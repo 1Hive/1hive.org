@@ -16,6 +16,7 @@
     "build": "./quartz/bootstrap-cli.mjs build",
     "serve": "./quartz/bootstrap-cli.mjs build --serve",
     "check": "tsc --noEmit && npx prettier . --check",
+    "check:site": "node --import tsx scripts/check-site.ts",
     "format": "npx prettier . --write",
     "test": "tsx --test"
   },
