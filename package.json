@@ -18,7 +18,7 @@
     "check": "tsc --noEmit && npx prettier . --check",
     "check:site": "node --import tsx scripts/check-site.ts",
     "format": "npx prettier . --write",
-    "test": "tsx --test"
+    "test": "node --import tsx --test \"quartz/**/*.test.ts\" \"scripts/**/*.test.ts\""
   },
   "engines": {
     "npm": ">=10.9.2",
