@@ -58,3 +58,17 @@ test("the skill index links every portable skill", async () => {
     }
   }
 })
+
+test("the proposal skill separates document maturity from decision evidence", async () => {
+  const skill = await readFile("skills/develop-proposal/SKILL.md", "utf8")
+  const { data: template } = matter(await readFile("proposals/TEMPLATE.md", "utf8"))
+  assert.equal(template.stage, "working-draft")
+  assert.equal(template.decision.status, "pending")
+  assert.match(skill, /Start at document stage \*\*Working draft\*\*/)
+  assert.match(skill, /document maturity, independently of the decision/)
+  assert.match(
+    skill,
+    /decision \*\*Pending\*\* until a scoped decision is supported by dated evidence/,
+  )
+  assert.match(skill, /Record funding and delivery separately/)
+})
