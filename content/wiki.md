@@ -11,6 +11,7 @@ If you’re new to 1Hive or want to get involved, start here:
 - [[Our mission and values]]: understand the principles and long-term ambitions behind the work.
 - [[Why Honey?]]: learn the purpose of Honey in a public goods economy.
 - [[How you can contribute]]: choose a small outcome and get it ready for review.
+- [[First contribution launchpad]]: pick a source-grounded candidate task with a clear finish line.
 - [[Participate with your agent]]: bring your existing personal agent to learn, prepare, and contribute.
 - [[Join the community]]: find the right place for discussion, coordination, and maintained work.
 - [[Improvement proposals]]: use a working-draft process and template for changes that need a durable plan.

@@ -6,6 +6,8 @@ Start with a useful result you can finish and share for review. You can contribu
 
 ## A practical first contribution
 
+Want a concrete starting point? The [[First contribution launchpad]] has eight small candidate briefs with source links, a finish line, and a prompt you can use with your agent. Check current work before choosing one.
+
 1. **Choose one outcome.** Clarify a wiki page, reproduce a bug, review a proposal, or improve a tool you use.
 2. **Check existing work.** Look for an issue, pull request, or discussion you can help move forward before starting a duplicate.
 3. **Prepare something inspectable.** Link sources, explain what changed, and include the checks or evidence someone else needs to review it.

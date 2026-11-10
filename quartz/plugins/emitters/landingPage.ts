@@ -407,7 +407,7 @@ const landingHtml = `<!DOCTYPE html>
           <h1 id="hero-title">Public goods for humanity.</h1>
           <p class="support">1Hive is building a community-owned economy for public goods. We coordinate around Honey, open infrastructure, and useful work people can inspect and improve. Start with one contribution, on your own or with your personal agent.</p>
           <div class="actions">
-            <a class="button primary" href="/How-you-can-contribute">Find your first contribution</a>
+            <a class="button primary" href="/First-contribution-launchpad">Find your first contribution</a>
             <a class="button" href="/Participate-with-your-agent">Bring your agent</a>
             <a class="button" href="/wiki">Explore the wiki</a>
           </div>

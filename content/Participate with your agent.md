@@ -19,6 +19,8 @@ If your agent cannot read websites, use the [repository entry point](https://git
 
 ## Start with useful work
 
+The [[First contribution launchpad]] turns these paths into small candidate briefs with sources, acceptance criteria, and copyable starting prompts. Choose one with your agent, then verify that the work is still needed.
+
 Choose a small task with an outcome another person can inspect:
 
 - **Learn the community.** Ask for a map of the mission, Honey, governance, and places to contribute, connected to your interests.
