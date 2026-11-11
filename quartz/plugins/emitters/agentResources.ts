@@ -24,6 +24,8 @@ export const agentResources = [
   "proposals/TEMPLATE.md",
   "proposals/0001-improvement-process.md",
   "proposals/draft-discord-integration-pilot.md",
+  "proposals/draft-save-ai-commons.md",
+  "proposals/draft-hive-outlives-agents.md",
 ] as const
 
 async function* emitAgentResources(ctx: BuildCtx) {
